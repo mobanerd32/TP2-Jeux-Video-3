@@ -154,7 +154,7 @@ PrefabInstance:
     - target: {fileID: 5009897490527822869, guid: 78d9ffa473ff6f14291fd5a98de517fc,
         type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5009897490527822869, guid: 78d9ffa473ff6f14291fd5a98de517fc,
         type: 3}
@@ -230,6 +230,79 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 784038638}
   m_SourcePrefab: {fileID: 100100000, guid: 78d9ffa473ff6f14291fd5a98de517fc, type: 3}
+--- !u!1001 &141098562
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2340633682214745232, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_Name
+      value: lantern-street-fixed-halloween (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 18.909
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 15.332
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99144495
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.13052548
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: be4d464a15244ea4fa52d2799710fba6, type: 3}
 --- !u!1001 &273567044
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -241,7 +314,7 @@ PrefabInstance:
     - target: {fileID: 6598815579406187027, guid: 18ddb545287c546e19cc77dc9fbb2189,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6598815579406187027, guid: 18ddb545287c546e19cc77dc9fbb2189,
         type: 3}
@@ -347,7 +420,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &410087039
 GameObject:
@@ -1111,6 +1184,167 @@ MonoBehaviour:
       m_Flags: 0
     m_Reference: {fileID: -8198699208435500284, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
+--- !u!1001 &454750081
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2665948033558224088, guid: 9fd02bc503e6b2946bb646476037c36f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2665948033558224088, guid: 9fd02bc503e6b2946bb646476037c36f,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.0341
+      objectReference: {fileID: 0}
+    - target: {fileID: 2665948033558224088, guid: 9fd02bc503e6b2946bb646476037c36f,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.0341
+      objectReference: {fileID: 0}
+    - target: {fileID: 2665948033558224088, guid: 9fd02bc503e6b2946bb646476037c36f,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.0341
+      objectReference: {fileID: 0}
+    - target: {fileID: 2665948033558224088, guid: 9fd02bc503e6b2946bb646476037c36f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 21.409
+      objectReference: {fileID: 0}
+    - target: {fileID: 2665948033558224088, guid: 9fd02bc503e6b2946bb646476037c36f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.913
+      objectReference: {fileID: 0}
+    - target: {fileID: 2665948033558224088, guid: 9fd02bc503e6b2946bb646476037c36f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -23.626
+      objectReference: {fileID: 0}
+    - target: {fileID: 2665948033558224088, guid: 9fd02bc503e6b2946bb646476037c36f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9518819
+      objectReference: {fileID: 0}
+    - target: {fileID: 2665948033558224088, guid: 9fd02bc503e6b2946bb646476037c36f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2665948033558224088, guid: 9fd02bc503e6b2946bb646476037c36f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.30646503
+      objectReference: {fileID: 0}
+    - target: {fileID: 2665948033558224088, guid: 9fd02bc503e6b2946bb646476037c36f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2665948033558224088, guid: 9fd02bc503e6b2946bb646476037c36f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2665948033558224088, guid: 9fd02bc503e6b2946bb646476037c36f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 35.693
+      objectReference: {fileID: 0}
+    - target: {fileID: 2665948033558224088, guid: 9fd02bc503e6b2946bb646476037c36f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3437523254897788514, guid: 9fd02bc503e6b2946bb646476037c36f,
+        type: 3}
+      propertyPath: m_Name
+      value: Tree004_V6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9fd02bc503e6b2946bb646476037c36f, type: 3}
+--- !u!1001 &631347524
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2340633682214745232, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_Name
+      value: lantern-street-fixed-halloween (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.49999946
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.86602575
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: be4d464a15244ea4fa52d2799710fba6, type: 3}
 --- !u!850595691 &705105801
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -1467,7 +1701,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &784038637 stripped
 GameObject:
@@ -1523,6 +1757,79 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.9443886, y: 3.914067, z: 2.836837}
   m_Center: {x: 0.17142613, y: 1.6746848, z: -0.2}
+--- !u!1001 &820248937
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2340633682214745232, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_Name
+      value: lantern-street-fixed-halloween
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.498
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.276
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: be4d464a15244ea4fa52d2799710fba6, type: 3}
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -1570,7 +1877,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &914772142 stripped
 GameObject:
@@ -1690,6 +1997,79 @@ Terrain:
   m_AllowAutoConnect: 1
   m_EnableHeightmapRayTracing: 1
   m_EnableTreesAndDetailsRayTracing: 0
+--- !u!1001 &930409630
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2340633682214745232, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_Name
+      value: lantern-street-fixed-halloween (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -14.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: be4d464a15244ea4fa52d2799710fba6, type: 3}
 --- !u!1 &968721238
 GameObject:
   m_ObjectHideFlags: 0
@@ -2394,7 +2774,7 @@ Transform:
   m_Children:
   - {fileID: 1173881137}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!136 &1078613652
 CapsuleCollider:
@@ -2446,6 +2826,79 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!1001 &1153310268
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2340633682214745232, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_Name
+      value: lantern-street-fixed-halloween (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 29.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.826
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -26.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.96592575
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.25881952
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: be4d464a15244ea4fa52d2799710fba6, type: 3}
 --- !u!1 &1173881136
 GameObject:
   m_ObjectHideFlags: 0
@@ -2511,7 +2964,7 @@ PrefabInstance:
     - target: {fileID: 5009897490527822869, guid: 78d9ffa473ff6f14291fd5a98de517fc,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5009897490527822869, guid: 78d9ffa473ff6f14291fd5a98de517fc,
         type: 3}
@@ -2587,6 +3040,152 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 914772144}
   m_SourcePrefab: {fileID: 100100000, guid: 78d9ffa473ff6f14291fd5a98de517fc, type: 3}
+--- !u!1001 &1389907849
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2340633682214745232, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_Name
+      value: lantern-street-fixed-halloween (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.153
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -9.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.25882
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9659256
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -150
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: be4d464a15244ea4fa52d2799710fba6, type: 3}
+--- !u!1001 &1409988403
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2340633682214745232, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_Name
+      value: lantern-street-fixed-halloween (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.00000034272668
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: be4d464a15244ea4fa52d2799710fba6, type: 3}
 --- !u!1 &1730810408
 GameObject:
   m_ObjectHideFlags: 0
@@ -2631,8 +3230,81 @@ Transform:
   m_Children:
   - {fileID: 922924245}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1836893270
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2340633682214745232, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_Name
+      value: lantern-street-fixed-halloween (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 29.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.512
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 26.423
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.49999967
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.8660257
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967047011108158625, guid: be4d464a15244ea4fa52d2799710fba6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: be4d464a15244ea4fa52d2799710fba6, type: 3}
 --- !u!1001 &1928627697
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2649,7 +3321,7 @@ PrefabInstance:
     - target: {fileID: 7979301255538197712, guid: 2df87b6594b47e64cbec15f49122be51,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7979301255538197712, guid: 2df87b6594b47e64cbec15f49122be51,
         type: 3}
