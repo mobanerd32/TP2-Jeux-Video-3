@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.3/release' branch; Version is '2022.3.0f1 (fb119bb0b476) revision 16454043'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'fr' Physical Memory: 16319 MB
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'fr' Physical Memory: 12064 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.0f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-D:/Users/PC/Desktop/TP2-Jeux-Video-3/TP3-Jeux-Video-3
+C:/Users/dalig/OneDrive/Bureau/TP2-Jeux-Video-3/TP3-Jeux-Video-3
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-65371
-Successfully changed project path to: D:/Users/PC/Desktop/TP2-Jeux-Video-3/TP3-Jeux-Video-3
-D:/Users/PC/Desktop/TP2-Jeux-Video-3/TP3-Jeux-Video-3
+56763
+Successfully changed project path to: C:/Users/dalig/OneDrive/Bureau/TP2-Jeux-Video-3/TP3-Jeux-Video-3
+C:/Users/dalig/OneDrive/Bureau/TP2-Jeux-Video-3/TP3-Jeux-Video-3
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,64 +49,64 @@ D:/Users/PC/Desktop/TP2-Jeux-Video-3/TP3-Jeux-Video-3
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [31052] Host "[IP] 192.168.0.111 [Port] 0 [Flags] 2 [Guid] 1635013578 [EditorId] 1635013578 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-O6NHOUE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8932] Host "[IP] 192.168.0.110 [Port] 0 [Flags] 2 [Guid] 425475842 [EditorId] 425475842 [Version] 1048832 [Id] WindowsEditor(7,Gargouille) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [31052] Host "[IP] 192.168.0.111 [Port] 0 [Flags] 2 [Guid] 1635013578 [EditorId] 1635013578 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-O6NHOUE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8932] Host "[IP] 192.168.0.110 [Port] 0 [Flags] 2 [Guid] 425475842 [EditorId] 425475842 [Version] 1048832 [Id] WindowsEditor(7,Gargouille) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 10.58 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 31.19 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.0f1 (fb119bb0b476)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Users/PC/Desktop/TP2-Jeux-Video-3/TP3-Jeux-Video-3/Assets
+[Subsystems] Discovering subsystems at path C:/Users/dalig/OneDrive/Bureau/TP2-Jeux-Video-3/TP3-Jeux-Video-3/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
-    Vendor:   NVIDIA
-    VRAM:     8081 MB
-    Driver:   31.0.15.3118
+    Renderer: Intel(R) UHD Graphics 730 (ID=0x4692)
+    Vendor:   Intel
+    VRAM:     6032 MB
+    Driver:   31.0.101.3302
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56748
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56048
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007021 seconds.
-- Loaded All Assemblies, in  0.316 seconds
+Registered in 0.006107 seconds.
+- Loaded All Assemblies, in  0.344 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.238 seconds
-Domain Reload Profiling: 553ms
-	BeginReloadAssembly (82ms)
+- Finished resetting the current domain, in  0.277 seconds
+Domain Reload Profiling: 621ms
+	BeginReloadAssembly (118ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (57ms)
-	LoadAllAssembliesAndSetupDomain (133ms)
-		LoadAssemblies (79ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (125ms)
+		LoadAssemblies (116ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (128ms)
-			TypeCache.Refresh (128ms)
-				TypeCache.ScanAssembly (115ms)
+		AnalyzeDomain (119ms)
+			TypeCache.Refresh (119ms)
+				TypeCache.ScanAssembly (105ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (238ms)
+	FinalizeReload (278ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (186ms)
+		SetupLoadedEditorAssemblies (213ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
+			InitializePlatformSupportModulesInManaged (9ms)
 			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (125ms)
-			ProcessInitializeOnLoadMethodAttributes (45ms)
+			ProcessInitializeOnLoadAttributes (140ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -114,10 +114,10 @@ Domain Reload Profiling: 553ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Users\PC\Desktop\TP2-Jeux-Video-3\TP3-Jeux-Video-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Users\PC\Desktop\TP2-Jeux-Video-3\TP3-Jeux-Video-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.810 seconds
-Refreshing native plugins compatible for Editor in 5.51 ms, found 9 plugins.
+Symbol file LoadedFromMemory doesn't match image C:\Users\dalig\OneDrive\Bureau\TP2-Jeux-Video-3\TP3-Jeux-Video-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\dalig\OneDrive\Bureau\TP2-Jeux-Video-3\TP3-Jeux-Video-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.974 seconds
+Refreshing native plugins compatible for Editor in 36.52 ms, found 9 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
@@ -130,600 +130,48 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.720 seconds
-Domain Reload Profiling: 1527ms
-	BeginReloadAssembly (127ms)
+- Finished resetting the current domain, in  0.971 seconds
+Domain Reload Profiling: 1941ms
+	BeginReloadAssembly (154ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (601ms)
-		LoadAssemblies (289ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (727ms)
+		LoadAssemblies (451ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (375ms)
-			TypeCache.Refresh (323ms)
-				TypeCache.ScanAssembly (306ms)
-			ScanForSourceGeneratedMonoScriptInfo (28ms)
-			ResolveRequiredComponents (25ms)
-	FinalizeReload (720ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (540ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (73ms)
-			ProcessInitializeOnLoadAttributes (363ms)
-			ProcessInitializeOnLoadMethodAttributes (87ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 5.76 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6516 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 126 unused Assets / (1.6 MB). Loaded Objects now: 6989.
-Memory consumption went from 259.3 MB to 257.6 MB.
-Total: 6.731000 ms (FindLiveObjects: 0.731900 ms CreateObjectMapping: 0.932000 ms MarkObjects: 4.204900 ms  DeleteObjects: 0.859500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 262710.210447 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(5c057400dd624bf4899447e422079ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(5c057400dd624bf4899447e422079ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fca9f4e8fcdc3d62969d354cc421e3be') in 0.023317 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Users\PC\Desktop\TP2-Jeux-Video-3\TP3-Jeux-Video-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Users\PC\Desktop\TP2-Jeux-Video-3\TP3-Jeux-Video-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.659 seconds
-Refreshing native plugins compatible for Editor in 5.36 ms, found 9 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.907 seconds
-Domain Reload Profiling: 1564ms
-	BeginReloadAssembly (141ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (46ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (451ms)
-		LoadAssemblies (231ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (272ms)
-			TypeCache.Refresh (261ms)
-				TypeCache.ScanAssembly (246ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (907ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (457ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (74ms)
-			ProcessInitializeOnLoadAttributes (294ms)
-			ProcessInitializeOnLoadMethodAttributes (75ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-Refreshing native plugins compatible for Editor in 5.54 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6290 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 79 unused Assets / (1.6 MB). Loaded Objects now: 6995.
-Memory consumption went from 217.3 MB to 215.7 MB.
-Total: 4.517400 ms (FindLiveObjects: 0.872200 ms CreateObjectMapping: 0.548800 ms MarkObjects: 2.695500 ms  DeleteObjects: 0.399000 ms)
-
-Prepare: number of updated asset objects reloaded= 36
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Users\PC\Desktop\TP2-Jeux-Video-3\TP3-Jeux-Video-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Users\PC\Desktop\TP2-Jeux-Video-3\TP3-Jeux-Video-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.730 seconds
-Refreshing native plugins compatible for Editor in 5.23 ms, found 9 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.968 seconds
-Domain Reload Profiling: 1696ms
-	BeginReloadAssembly (154ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (45ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (497ms)
-		LoadAssemblies (241ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (321ms)
+		AnalyzeDomain (359ms)
 			TypeCache.Refresh (311ms)
-				TypeCache.ScanAssembly (295ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (969ms)
+				TypeCache.ScanAssembly (290ms)
+			ScanForSourceGeneratedMonoScriptInfo (35ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (971ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (479ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (73ms)
-			ProcessInitializeOnLoadAttributes (324ms)
-			ProcessInitializeOnLoadMethodAttributes (66ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-Refreshing native plugins compatible for Editor in 6.94 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6290 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 79 unused Assets / (1.6 MB). Loaded Objects now: 7000.
-Memory consumption went from 217.3 MB to 215.7 MB.
-Total: 9.975200 ms (FindLiveObjects: 1.479200 ms CreateObjectMapping: 2.027100 ms MarkObjects: 5.810300 ms  DeleteObjects: 0.656100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Users\PC\Desktop\TP2-Jeux-Video-3\TP3-Jeux-Video-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Users\PC\Desktop\TP2-Jeux-Video-3\TP3-Jeux-Video-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.663 seconds
-Refreshing native plugins compatible for Editor in 5.32 ms, found 9 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.969 seconds
-Domain Reload Profiling: 1630ms
-	BeginReloadAssembly (145ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (48ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (447ms)
-		LoadAssemblies (230ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (272ms)
-			TypeCache.Refresh (260ms)
-				TypeCache.ScanAssembly (245ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (969ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (485ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (82ms)
-			ProcessInitializeOnLoadAttributes (312ms)
-			ProcessInitializeOnLoadMethodAttributes (74ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (18ms)
-Refreshing native plugins compatible for Editor in 6.88 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6290 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 79 unused Assets / (1.6 MB). Loaded Objects now: 7005.
-Memory consumption went from 217.3 MB to 215.7 MB.
-Total: 8.629100 ms (FindLiveObjects: 0.748600 ms CreateObjectMapping: 1.295100 ms MarkObjects: 5.722700 ms  DeleteObjects: 0.861400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Users\PC\Desktop\TP2-Jeux-Video-3\TP3-Jeux-Video-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Users\PC\Desktop\TP2-Jeux-Video-3\TP3-Jeux-Video-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.681 seconds
-Refreshing native plugins compatible for Editor in 5.52 ms, found 9 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.952 seconds
-Domain Reload Profiling: 1631ms
-	BeginReloadAssembly (141ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (40ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (471ms)
-		LoadAssemblies (230ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (300ms)
-			TypeCache.Refresh (290ms)
-				TypeCache.ScanAssembly (273ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (952ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (475ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (70ms)
-			ProcessInitializeOnLoadAttributes (310ms)
-			ProcessInitializeOnLoadMethodAttributes (78ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (20ms)
-Refreshing native plugins compatible for Editor in 7.65 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6290 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 79 unused Assets / (1.6 MB). Loaded Objects now: 7010.
-Memory consumption went from 217.3 MB to 215.7 MB.
-Total: 8.408500 ms (FindLiveObjects: 1.121500 ms CreateObjectMapping: 2.776900 ms MarkObjects: 4.046600 ms  DeleteObjects: 0.461900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Users\PC\Desktop\TP2-Jeux-Video-3\TP3-Jeux-Video-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Users\PC\Desktop\TP2-Jeux-Video-3\TP3-Jeux-Video-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.726 seconds
-Refreshing native plugins compatible for Editor in 7.13 ms, found 9 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.005 seconds
-Domain Reload Profiling: 1729ms
-	BeginReloadAssembly (146ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (42ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (496ms)
-		LoadAssemblies (259ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (297ms)
-			TypeCache.Refresh (286ms)
-				TypeCache.ScanAssembly (272ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (1005ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (515ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (75ms)
-			ProcessInitializeOnLoadAttributes (323ms)
-			ProcessInitializeOnLoadMethodAttributes (100ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (20ms)
-Refreshing native plugins compatible for Editor in 7.96 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6290 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 79 unused Assets / (1.6 MB). Loaded Objects now: 7015.
-Memory consumption went from 217.3 MB to 215.7 MB.
-Total: 9.777200 ms (FindLiveObjects: 1.147600 ms CreateObjectMapping: 1.204600 ms MarkObjects: 6.407800 ms  DeleteObjects: 1.015200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Users\PC\Desktop\TP2-Jeux-Video-3\TP3-Jeux-Video-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Users\PC\Desktop\TP2-Jeux-Video-3\TP3-Jeux-Video-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.682 seconds
-Refreshing native plugins compatible for Editor in 5.41 ms, found 9 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.973 seconds
-Domain Reload Profiling: 1654ms
-	BeginReloadAssembly (148ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (44ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (455ms)
-		LoadAssemblies (239ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (278ms)
-			TypeCache.Refresh (267ms)
-				TypeCache.ScanAssembly (251ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (974ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (489ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (73ms)
-			ProcessInitializeOnLoadAttributes (322ms)
-			ProcessInitializeOnLoadMethodAttributes (78ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (21ms)
-Refreshing native plugins compatible for Editor in 5.81 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6290 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 79 unused Assets / (1.6 MB). Loaded Objects now: 7020.
-Memory consumption went from 217.3 MB to 215.7 MB.
-Total: 6.717300 ms (FindLiveObjects: 0.968900 ms CreateObjectMapping: 0.942200 ms MarkObjects: 3.798400 ms  DeleteObjects: 1.005800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Users\PC\Desktop\TP2-Jeux-Video-3\TP3-Jeux-Video-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Users\PC\Desktop\TP2-Jeux-Video-3\TP3-Jeux-Video-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.747 seconds
-Refreshing native plugins compatible for Editor in 5.56 ms, found 9 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.081 seconds
-Domain Reload Profiling: 1826ms
-	BeginReloadAssembly (146ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (44ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (521ms)
-		LoadAssemblies (292ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (290ms)
-			TypeCache.Refresh (280ms)
-				TypeCache.ScanAssembly (261ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (1081ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (523ms)
+		SetupLoadedEditorAssemblies (746ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (4ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (85ms)
-			ProcessInitializeOnLoadAttributes (333ms)
-			ProcessInitializeOnLoadMethodAttributes (86ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (18ms)
-Refreshing native plugins compatible for Editor in 6.15 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6290 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 79 unused Assets / (1.6 MB). Loaded Objects now: 7025.
-Memory consumption went from 217.3 MB to 215.7 MB.
-Total: 8.243400 ms (FindLiveObjects: 0.620900 ms CreateObjectMapping: 1.021800 ms MarkObjects: 5.230500 ms  DeleteObjects: 1.366900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Users\PC\Desktop\TP2-Jeux-Video-3\TP3-Jeux-Video-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Users\PC\Desktop\TP2-Jeux-Video-3\TP3-Jeux-Video-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.684 seconds
-Refreshing native plugins compatible for Editor in 5.37 ms, found 9 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.952 seconds
-Domain Reload Profiling: 1633ms
-	BeginReloadAssembly (148ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (46ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (458ms)
-		LoadAssemblies (234ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (283ms)
-			TypeCache.Refresh (272ms)
-				TypeCache.ScanAssembly (257ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (952ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (469ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (70ms)
-			ProcessInitializeOnLoadAttributes (313ms)
-			ProcessInitializeOnLoadMethodAttributes (70ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (527ms)
+			ProcessInitializeOnLoadMethodAttributes (109ms)
 			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
-Refreshing native plugins compatible for Editor in 6.06 ms, found 9 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 9.24 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6290 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 79 unused Assets / (1.6 MB). Loaded Objects now: 7030.
-Memory consumption went from 217.3 MB to 215.7 MB.
-Total: 9.242700 ms (FindLiveObjects: 1.459100 ms CreateObjectMapping: 1.105300 ms MarkObjects: 5.450800 ms  DeleteObjects: 1.225700 ms)
+Unloading 6516 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 126 unused Assets / (1.7 MB). Loaded Objects now: 6989.
+Memory consumption went from 259.0 MB to 257.4 MB.
+Total: 4.997600 ms (FindLiveObjects: 0.426400 ms CreateObjectMapping: 0.303700 ms MarkObjects: 3.714000 ms  DeleteObjects: 0.551800 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -737,698 +185,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 4463.975055 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_DiningHall_01_Bottle#2.prefab
-  artifactKey: Guid(26b95fa21dfcfeb4fb4aea448e8d05c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_DiningHall_01_Bottle#2.prefab using Guid(26b95fa21dfcfeb4fb4aea448e8d05c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63ce32460d16c9e05240b3db8c1c3adf') in 0.028728 seconds
+  Time since last request: 358633.828958 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(5c057400dd624bf4899447e422079ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(5c057400dd624bf4899447e422079ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fca9f4e8fcdc3d62969d354cc421e3be') in 0.022465 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_Library_01_Chear_High#1.prefab
-  artifactKey: Guid(a81f44cd09f9df54fac3fd8623a66806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_Library_01_Chear_High#1.prefab using Guid(a81f44cd09f9df54fac3fd8623a66806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f12557c0eeaa0af7956b16a001832b7') in 0.001790 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/02_Kitchen_01_CuttingBoard.prefab
-  artifactKey: Guid(971e70123fa0f8540bb03284db541417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/02_Kitchen_01_CuttingBoard.prefab using Guid(971e70123fa0f8540bb03284db541417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1fb2c9f9873ae25f85933cab506bfe1') in 0.002832 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/02_Kitchen_01_SpoonBucket.prefab
-  artifactKey: Guid(70aff6ca55ad79544b118701d9ec1295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/02_Kitchen_01_SpoonBucket.prefab using Guid(70aff6ca55ad79544b118701d9ec1295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15284b46f7a693d7b3fed86c012ad624') in 0.001313 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_Library_01_Chear_High#2.prefab
-  artifactKey: Guid(d23f889ee6731c448a8b0d59b4ee8088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_Library_01_Chear_High#2.prefab using Guid(d23f889ee6731c448a8b0d59b4ee8088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df6dfccf7a5f987f2610efa0d7c61483') in 0.003372 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/02_Kitchen_01_CuttingBoard#2.prefab
-  artifactKey: Guid(3b4da24dd8e66214c9d50248a0effe83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/02_Kitchen_01_CuttingBoard#2.prefab using Guid(3b4da24dd8e66214c9d50248a0effe83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35749fa46e186ba9c92ec7ebc339ba1f') in 0.001130 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_DiningHall_01_Cup#2.prefab
-  artifactKey: Guid(c64bf04713b5e0549b27844ba6bfc9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_DiningHall_01_Cup#2.prefab using Guid(c64bf04713b5e0549b27844ba6bfc9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01258d3b6a68aced00b416c365281e34') in 0.001793 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_Library_01_BookSmall_Purple.prefab
-  artifactKey: Guid(06da729a12d15bd4ea5ab273ba5c2a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_Library_01_BookSmall_Purple.prefab using Guid(06da729a12d15bd4ea5ab273ba5c2a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39d0356dbbb799370b3ac72719fa58c7') in 0.002266 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_DiningHall_01_WoodenTable#1.prefab
-  artifactKey: Guid(dc9b885602f11ae4b81c7749b464e6dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_DiningHall_01_WoodenTable#1.prefab using Guid(dc9b885602f11ae4b81c7749b464e6dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '930284959ed0864e7695a74d27427153') in 0.001712 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/02_Kitchen_01_CookingPot#2.prefab
-  artifactKey: Guid(3e949684ea4f4744d8394630ed256f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/02_Kitchen_01_CookingPot#2.prefab using Guid(3e949684ea4f4744d8394630ed256f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f76ce13d9db32b69ec05036a6f9225e') in 0.002052 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_DiningHall_01_Bowl#1.prefab
-  artifactKey: Guid(6e86b822bb8d54542ac1e3cf1972452c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_DiningHall_01_Bowl#1.prefab using Guid(6e86b822bb8d54542ac1e3cf1972452c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd49e446b95df48cd1c762ecb232556be') in 0.001366 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_DiningHall_01_WoodenChear#2.prefab
-  artifactKey: Guid(ebc4a50eb5c187947817efb7f3d72924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_DiningHall_01_WoodenChear#2.prefab using Guid(ebc4a50eb5c187947817efb7f3d72924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '882fc18b20870b90881123c721f77e5e') in 0.002477 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/02_Kitchen_01_CookingPot#1.prefab
-  artifactKey: Guid(16dfe05c8ffa4d84681d7cd84ab17842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/02_Kitchen_01_CookingPot#1.prefab using Guid(16dfe05c8ffa4d84681d7cd84ab17842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cd524f5a54c54790948d136ed6ea8cd') in 0.002381 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_Library_01_BookShelve_1.prefab
-  artifactKey: Guid(34883640f89bba84885fe5885c21fa37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_Library_01_BookShelve_1.prefab using Guid(34883640f89bba84885fe5885c21fa37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c76a6adbe532149d99aa749c80c7dbb') in 0.002414 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_Library_01_InkWell#1.prefab
-  artifactKey: Guid(2f570eda51c25004f9aa924d657af75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_Library_01_InkWell#1.prefab using Guid(2f570eda51c25004f9aa924d657af75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0880142aaf3acd50cc2c4ee52fe422b4') in 0.002239 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_DiningHall_01_Candels#1.prefab
-  artifactKey: Guid(842a752523ece6c4996c2c95378a4536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_DiningHall_01_Candels#1.prefab using Guid(842a752523ece6c4996c2c95378a4536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '534a1d482c4bc6bf4ac946067143510c') in 0.002730 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 2.111149 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/03_Blacksmith_01_AnvilStand.prefab
-  artifactKey: Guid(a20ce41344aafe441a6a2effbc752c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/03_Blacksmith_01_AnvilStand.prefab using Guid(a20ce41344aafe441a6a2effbc752c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f55a7ac0f18f844cea5b040e3a774be0') in 0.001694 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/03_Blacksmith_01_Forge.prefab
-  artifactKey: Guid(375aacc276d724f41b0baa76221478d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/03_Blacksmith_01_Forge.prefab using Guid(375aacc276d724f41b0baa76221478d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b658f3fae33f69c9823dea11e1078d3') in 0.007392 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/03_Blacksmith_01_IronBar.prefab
-  artifactKey: Guid(793d90f1b3ced354d80bd73df4e73c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/03_Blacksmith_01_IronBar.prefab using Guid(793d90f1b3ced354d80bd73df4e73c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '047358320f88626e586aa34c9cfe2d78') in 0.002674 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/03_Blacksmith_01_Blower.prefab
-  artifactKey: Guid(a39dd3b8bbc8afd46aba5478c68d400c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/03_Blacksmith_01_Blower.prefab using Guid(a39dd3b8bbc8afd46aba5478c68d400c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da7a8e8429c83c60c670df7b64df954') in 0.003355 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/03_Blacksmith_01_GrindingWheel_Frame.prefab
-  artifactKey: Guid(53ae3832d83089f4abb4091017ba91f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/03_Blacksmith_01_GrindingWheel_Frame.prefab using Guid(53ae3832d83089f4abb4091017ba91f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a61b4cf673bc20e9bec1b741bc6594a') in 0.001494 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.372195 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/04_Bedroom_01_Beed_2.prefab
-  artifactKey: Guid(4c99ccd66904b4f41b452d4403e13bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/04_Bedroom_01_Beed_2.prefab using Guid(4c99ccd66904b4f41b452d4403e13bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee47da8b5a392c50ac99db3eb7f7ccbb') in 0.001425 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/04_Bedroom_01_Matrace_ForBeed_1.prefab
-  artifactKey: Guid(1dba64d63b3ff9545af2152cc3320b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/04_Bedroom_01_Matrace_ForBeed_1.prefab using Guid(1dba64d63b3ff9545af2152cc3320b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db45ac78b171ef9426f1cb7fcbdae2ba') in 0.002950 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/05_Vault_01_Coin#1.prefab
-  artifactKey: Guid(4296b59400a9273488a86c13f4600e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/05_Vault_01_Coin#1.prefab using Guid(4296b59400a9273488a86c13f4600e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '404300330dbc4a9edf4eea014a84dc9a') in 0.002315 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/05_Vault_01_Chest_Bottom#1.prefab
-  artifactKey: Guid(ceddce4fa21192b4894d7164957a9fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/05_Vault_01_Chest_Bottom#1.prefab using Guid(ceddce4fa21192b4894d7164957a9fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2ebe3bc2cd19962aa866df106e0e992') in 0.001949 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/05_Vault_01_Rubin#1.prefab
-  artifactKey: Guid(b2d7c00e4dc018c498db89622b61d510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/05_Vault_01_Rubin#1.prefab using Guid(b2d7c00e4dc018c498db89622b61d510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e83df03196e53b674c35a0846a74709a') in 0.001832 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/04_Bedroom_01_Beed_3.prefab
-  artifactKey: Guid(4242a69f308b1484783adb21b0eecad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/04_Bedroom_01_Beed_3.prefab using Guid(4242a69f308b1484783adb21b0eecad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '532617236a9b4fb394fb3c56128ef4e2') in 0.002318 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_Amphora_Destroyable.prefab
-  artifactKey: Guid(22c3c9f59017bab44a6af40069e7785f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_Amphora_Destroyable.prefab using Guid(22c3c9f59017bab44a6af40069e7785f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e822a031a45e1814d285385894e5631') in 0.003837 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 43
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_Key_Green_2.prefab
-  artifactKey: Guid(06e0f718c84ed394a909af3edcfc9693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_Key_Green_2.prefab using Guid(06e0f718c84ed394a909af3edcfc9693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c43eb0ef852dc83dc38057341285f1ea') in 0.001972 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/96_Traps_Trap_Spiner.prefab
-  artifactKey: Guid(d2fc77b57485eaa4ea46234f0fc0a6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/96_Traps_Trap_Spiner.prefab using Guid(d2fc77b57485eaa4ea46234f0fc0a6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c80f1210b32b546e0390c66625b491e1') in 0.002900 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_Key_Red.prefab
-  artifactKey: Guid(fb7a8fe8399823041b978461ce797a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_Key_Red.prefab using Guid(fb7a8fe8399823041b978461ce797a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e3c26b7ee694e8899aae0c189609b32') in 0.001465 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/99_Decorations_WallBanner_0.prefab
-  artifactKey: Guid(176d5285766cfaa42bf3540a6c941dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/99_Decorations_WallBanner_0.prefab using Guid(176d5285766cfaa42bf3540a6c941dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45de026d4f82090a452ec71e4c3040d') in 0.002933 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/99_Decorations_WallBanner_1.prefab
-  artifactKey: Guid(cb43e42ad7ce04a4c9f29223eb3e62f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/99_Decorations_WallBanner_1.prefab using Guid(cb43e42ad7ce04a4c9f29223eb3e62f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c961827a9a1d0abcebb79ed8ba4fada') in 0.001589 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_Key_Yellow_2.prefab
-  artifactKey: Guid(38a240940317c744cbcd24ae027df742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_Key_Yellow_2.prefab using Guid(38a240940317c744cbcd24ae027df742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c5b6eee9aeec607b37b0fcdb838f0e3') in 0.002790 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/99_Decorations_SpiderWebb_2.prefab
-  artifactKey: Guid(4ae94bf72660157478f13b20c3227f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/99_Decorations_SpiderWebb_2.prefab using Guid(4ae94bf72660157478f13b20c3227f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '033d1b47385b944271518ce1c6dc389b') in 0.001486 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_Amphora_Whole.prefab
-  artifactKey: Guid(f2b7b9eae59666f479897a6d26d6850f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_Amphora_Whole.prefab using Guid(f2b7b9eae59666f479897a6d26d6850f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3f52dab33e6710af2bcdf6b3dd00874') in 0.006950 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_Splash_1.prefab
-  artifactKey: Guid(d34bde90053bf2a4d843e3c500a0fb4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_Splash_1.prefab using Guid(d34bde90053bf2a4d843e3c500a0fb4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6617a43cd2963b79371211a4d906f6f9') in 0.004770 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_Key_Yellow.prefab
-  artifactKey: Guid(8e6bcd71fb429ed4cab90a908277c517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_Key_Yellow.prefab using Guid(8e6bcd71fb429ed4cab90a908277c517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '784736c208b955a34a1fe9a0989c0ba0') in 0.001271 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.188521 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/99_Decorations_WallBanner_3.prefab
-  artifactKey: Guid(7c1dbcbcfea187d42a727e490753b135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/99_Decorations_WallBanner_3.prefab using Guid(7c1dbcbcfea187d42a727e490753b135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca0b0420f8e523192aa0c10d3c13ad83') in 0.001575 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/99_Decorations_WallBanner_5.prefab
-  artifactKey: Guid(ec2f295bd6d5a874eae824112a4f523a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/99_Decorations_WallBanner_5.prefab using Guid(ec2f295bd6d5a874eae824112a4f523a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d881ecba1446aa3f9fa9c663edd9a46') in 0.002176 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Users\PC\Desktop\TP2-Jeux-Video-3\TP3-Jeux-Video-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Users\PC\Desktop\TP2-Jeux-Video-3\TP3-Jeux-Video-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.672 seconds
-Refreshing native plugins compatible for Editor in 6.66 ms, found 9 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.001 seconds
-Domain Reload Profiling: 1671ms
-	BeginReloadAssembly (147ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (48ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (456ms)
-		LoadAssemblies (228ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (285ms)
-			TypeCache.Refresh (274ms)
-				TypeCache.ScanAssembly (258ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (1002ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (529ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (72ms)
-			ProcessInitializeOnLoadAttributes (350ms)
-			ProcessInitializeOnLoadMethodAttributes (91ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (18ms)
-Refreshing native plugins compatible for Editor in 6.12 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6290 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 79 unused Assets / (1.6 MB). Loaded Objects now: 7035.
-Memory consumption went from 217.4 MB to 215.7 MB.
-Total: 6.309300 ms (FindLiveObjects: 1.259400 ms CreateObjectMapping: 1.448100 ms MarkObjects: 3.110200 ms  DeleteObjects: 0.489600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Users\PC\Desktop\TP2-Jeux-Video-3\TP3-Jeux-Video-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Users\PC\Desktop\TP2-Jeux-Video-3\TP3-Jeux-Video-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.683 seconds
-Refreshing native plugins compatible for Editor in 5.24 ms, found 9 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.957 seconds
-Domain Reload Profiling: 1638ms
-	BeginReloadAssembly (147ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (45ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (464ms)
-		LoadAssemblies (242ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (281ms)
-			TypeCache.Refresh (268ms)
-				TypeCache.ScanAssembly (252ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (957ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (491ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (79ms)
-			ProcessInitializeOnLoadAttributes (326ms)
-			ProcessInitializeOnLoadMethodAttributes (70ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 6.79 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6290 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 79 unused Assets / (1.6 MB). Loaded Objects now: 7040.
-Memory consumption went from 217.4 MB to 215.7 MB.
-Total: 5.672100 ms (FindLiveObjects: 0.620900 ms CreateObjectMapping: 0.853900 ms MarkObjects: 3.242200 ms  DeleteObjects: 0.954100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Users\PC\Desktop\TP2-Jeux-Video-3\TP3-Jeux-Video-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Users\PC\Desktop\TP2-Jeux-Video-3\TP3-Jeux-Video-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.677 seconds
-Refreshing native plugins compatible for Editor in 5.98 ms, found 9 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.967 seconds
-Domain Reload Profiling: 1642ms
-	BeginReloadAssembly (141ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (41ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (467ms)
-		LoadAssemblies (237ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (288ms)
-			TypeCache.Refresh (278ms)
-				TypeCache.ScanAssembly (261ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (967ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (486ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (74ms)
-			ProcessInitializeOnLoadAttributes (327ms)
-			ProcessInitializeOnLoadMethodAttributes (67ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 5.81 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6290 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 79 unused Assets / (1.6 MB). Loaded Objects now: 7045.
-Memory consumption went from 217.4 MB to 215.7 MB.
-Total: 10.400400 ms (FindLiveObjects: 0.854400 ms CreateObjectMapping: 1.257000 ms MarkObjects: 6.772700 ms  DeleteObjects: 1.513100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 534.930129 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_DiningHall_01_Bottle#2.fbx
-  artifactKey: Guid(8a0da4ad7bc1e8347962e57617420844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_DiningHall_01_Bottle#2.fbx using Guid(8a0da4ad7bc1e8347962e57617420844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e25b8e58eefaff7850be2aec8415958') in 0.024555 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_CuttingBoard#2.fbx
-  artifactKey: Guid(833386d75d20afc47ae8848a6f445176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_CuttingBoard#2.fbx using Guid(833386d75d20afc47ae8848a6f445176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad368b268eff1f55bacf779fba3021ce') in 0.002990 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/03_Blacksmith_01_Anvil.fbx
-  artifactKey: Guid(19ec89ffd5564c746b7efc29eaf2fddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/03_Blacksmith_01_Anvil.fbx using Guid(19ec89ffd5564c746b7efc29eaf2fddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02b311c40ae8fd9a2fc76c56bc73c7a8') in 0.003068 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_SpoonBucket.fbx
-  artifactKey: Guid(827a0159f61521b42b5ec613b75e8117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_SpoonBucket.fbx using Guid(827a0159f61521b42b5ec613b75e8117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb126611f5415494adf2e69f5c21053') in 0.002791 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_CookingPot#1.fbx
-  artifactKey: Guid(80870dfe9805f444fab1862626cae728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_CookingPot#1.fbx using Guid(80870dfe9805f444fab1862626cae728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '509377e607e93d0e9afa378dd53e352b') in 0.001514 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_DiningHall_01_Bowl#1.fbx
-  artifactKey: Guid(c0ce8dbd0c29671469ad6feb59e4b12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_DiningHall_01_Bowl#1.fbx using Guid(c0ce8dbd0c29671469ad6feb59e4b12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff16e2675c67be5d106ffcad73fa136a') in 0.001358 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_Library_01_InkWell#1.fbx
-  artifactKey: Guid(4a1470cf32a2bb24da3b62b136b03a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_Library_01_InkWell#1.fbx using Guid(4a1470cf32a2bb24da3b62b136b03a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '259f72ba1568306041e5be4d8584b513') in 0.002283 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_Library_01_BookShelve_1.fbx
-  artifactKey: Guid(96e8e095ce718cb48ab139ad2ca550e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_Library_01_BookShelve_1.fbx using Guid(96e8e095ce718cb48ab139ad2ca550e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e63cfa3ae05046bca572e7c3f0fc76e9') in 0.002702 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_Chopper.fbx
-  artifactKey: Guid(21676d294d655b5478ce76c58d15f06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_Chopper.fbx using Guid(21676d294d655b5478ce76c58d15f06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f82412ddd5f47ebfc8f4bf810c42f2f3') in 0.001309 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_DiningHall_01_Cup#2.fbx
-  artifactKey: Guid(9f4bf87c7fe9f40498710243b709e356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_DiningHall_01_Cup#2.fbx using Guid(9f4bf87c7fe9f40498710243b709e356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a78afb3041dd8532ef5ad4c46f7fb564') in 0.004533 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_DiningHall_01_Bowl#2.fbx
-  artifactKey: Guid(73ce0a416903c7641822479ada6bc80c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_DiningHall_01_Bowl#2.fbx using Guid(73ce0a416903c7641822479ada6bc80c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f414d527dca1f0f350121736543960cf') in 0.001310 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_DiningHall_01_Cup#1.fbx
-  artifactKey: Guid(1fa8d3e2bdfd68f4e9e50a59fd55ff91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_DiningHall_01_Cup#1.fbx using Guid(1fa8d3e2bdfd68f4e9e50a59fd55ff91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff3e6c1df9ada86c0ac8174ab366db71') in 0.001578 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/03_Blacksmith_01_Forge.fbx
-  artifactKey: Guid(8d2c90bfe34335e44b8a0ab9891d9f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/03_Blacksmith_01_Forge.fbx using Guid(8d2c90bfe34335e44b8a0ab9891d9f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1707c68d206e02e2fee31d5ac18b528') in 0.006364 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_Library_01_BookSmall_Green.fbx
-  artifactKey: Guid(19beee987cc34624cb12ac982e0dc8e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_Library_01_BookSmall_Green.fbx using Guid(19beee987cc34624cb12ac982e0dc8e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afae62ac647423374c3edfdf7d372495') in 0.001551 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/03_Blacksmith_01_CooperBar.fbx
-  artifactKey: Guid(f0ee873b9c72e8849a5bf14636c21c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/03_Blacksmith_01_CooperBar.fbx using Guid(f0ee873b9c72e8849a5bf14636c21c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9dbf9f03f5b1c8a9d328f7d44ad2aa') in 0.002068 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_Library_01_Desk#1.fbx
-  artifactKey: Guid(c454e92f88d86214cb2e75fe02c580d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_Library_01_Desk#1.fbx using Guid(c454e92f88d86214cb2e75fe02c580d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca193a9d0b1261466a7f2ee1b209ecd') in 0.001663 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_DiningHall_01_Bottle#3.fbx
-  artifactKey: Guid(8c67db829d4459646af2df5502b713de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_DiningHall_01_Bottle#3.fbx using Guid(8c67db829d4459646af2df5502b713de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e25ab969df98d849784e1d08a99536') in 0.002089 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_CuttingBoard.fbx
-  artifactKey: Guid(2aca63611f404414daf3fd813acac052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_CuttingBoard.fbx using Guid(2aca63611f404414daf3fd813acac052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16944666a4847eaf2fbfab65282753fb') in 0.002158 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_Library_01_Chear_High#1.fbx
-  artifactKey: Guid(e75b6260e4f60b74fa98347b1ee928ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_Library_01_Chear_High#1.fbx using Guid(e75b6260e4f60b74fa98347b1ee928ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcffe94765ca7f1d3f7a9c990c598f14') in 0.001275 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_Library_01_BigBook#2.fbx
-  artifactKey: Guid(cde7019a5c7ef294e966f1aba2e87a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_Library_01_BigBook#2.fbx using Guid(cde7019a5c7ef294e966f1aba2e87a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e79ca38ff28670eaf0b1b826efdc4ef3') in 0.003860 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_Library_01_BookSmall_Blue.fbx
-  artifactKey: Guid(e9a3ca9aa7a65b6478a6e2b4e24357fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_Library_01_BookSmall_Blue.fbx using Guid(e9a3ca9aa7a65b6478a6e2b4e24357fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d550baf5228be2fd78127a268ee9cc0') in 0.001864 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: L’opération d’entrée/sortie a été abandonnée en raison de l’arrêt d’un thread ou à la demande d’une application.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Number of asset objects unloaded after import = 1
