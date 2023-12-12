@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.3/release' branch; Version is '2022.3.0f1 (fb119bb0b476) revision 16454043'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Education' Language: 'fr' Physical Memory: 16229 MB
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'fr' Physical Memory: 12064 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.0f1\Editor\Unity.exe
 -name
 AssetImportWorker13
 -projectPath
-C:/Users/2032225/Desktop/TP2-Jeux-Video-3/TP3-Jeux-Video-3
+C:/Users/dalig/OneDrive/Bureau/TP2-Jeux-Video-3/TP3-Jeux-Video-3
 -logFile
 Logs/AssetImportWorker13.log
 -srvPort
-51893
-Successfully changed project path to: C:/Users/2032225/Desktop/TP2-Jeux-Video-3/TP3-Jeux-Video-3
-C:/Users/2032225/Desktop/TP2-Jeux-Video-3/TP3-Jeux-Video-3
+64945
+Successfully changed project path to: C:/Users/dalig/OneDrive/Bureau/TP2-Jeux-Video-3/TP3-Jeux-Video-3
+C:/Users/dalig/OneDrive/Bureau/TP2-Jeux-Video-3/TP3-Jeux-Video-3
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,71 +49,64 @@ C:/Users/2032225/Desktop/TP2-Jeux-Video-3/TP3-Jeux-Video-3
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [21240] Host "[IP] 10.10.38.139 [Port] 0 [Flags] 2 [Guid] 2918101902 [EditorId] 2918101902 [Version] 1048832 [Id] WindowsEditor(7,LLBTIMD290817) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [6956] Host "[IP] 192.168.0.110 [Port] 0 [Flags] 2 [Guid] 2361911933 [EditorId] 2361911933 [Version] 1048832 [Id] WindowsEditor(7,Gargouille) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [21240] Host "[IP] 10.10.38.139 [Port] 0 [Flags] 2 [Guid] 2918101902 [EditorId] 2918101902 [Version] 1048832 [Id] WindowsEditor(7,LLBTIMD290817) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [6956] Host "[IP] 192.168.0.110 [Port] 0 [Flags] 2 [Guid] 2361911933 [EditorId] 2361911933 [Version] 1048832 [Id] WindowsEditor(7,Gargouille) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 24.77 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 35.94 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.0f1 (fb119bb0b476)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/2032225/Desktop/TP2-Jeux-Video-3/TP3-Jeux-Video-3/Assets
+[Subsystems] Discovering subsystems at path C:/Users/dalig/OneDrive/Bureau/TP2-Jeux-Video-3/TP3-Jeux-Video-3/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
-    Vendor:   NVIDIA
-    VRAM:     8081 MB
-    Driver:   31.0.15.3598
+    Renderer: Intel(R) UHD Graphics 730 (ID=0x4692)
+    Vendor:   Intel
+    VRAM:     6032 MB
+    Driver:   31.0.101.3302
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56488
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56900
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.035496 seconds.
-- Loaded All Assemblies, in  0.633 seconds
-Native extension for UWP target not found
+Registered in 0.015816 seconds.
+- Loaded All Assemblies, in  1.135 seconds
 Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 656 ms
-Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.222 seconds
-Domain Reload Profiling: 1854ms
-	BeginReloadAssembly (143ms)
+- Finished resetting the current domain, in  0.463 seconds
+Domain Reload Profiling: 1597ms
+	BeginReloadAssembly (370ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (71ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (129ms)
-	LoadAllAssembliesAndSetupDomain (268ms)
-		LoadAssemblies (140ms)
+	RebuildCommonClasses (66ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (148ms)
+	LoadAllAssembliesAndSetupDomain (533ms)
+		LoadAssemblies (362ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (258ms)
-			TypeCache.Refresh (257ms)
-				TypeCache.ScanAssembly (235ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
+		AnalyzeDomain (524ms)
+			TypeCache.Refresh (523ms)
+				TypeCache.ScanAssembly (483ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1223ms)
+	FinalizeReload (464ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1105ms)
+		SetupLoadedEditorAssemblies (367ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (869ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (20ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (160ms)
-			ProcessInitializeOnLoadMethodAttributes (67ms)
+			ProcessInitializeOnLoadAttributes (251ms)
+			ProcessInitializeOnLoadMethodAttributes (80ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -121,14 +114,11 @@ Domain Reload Profiling: 1854ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\2032225\Desktop\TP2-Jeux-Video-3\TP3-Jeux-Video-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\2032225\Desktop\TP2-Jeux-Video-3\TP3-Jeux-Video-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.588 seconds
-Refreshing native plugins compatible for Editor in 13.64 ms, found 9 plugins.
-Native extension for UWP target not found
+Symbol file LoadedFromMemory doesn't match image C:\Users\dalig\OneDrive\Bureau\TP2-Jeux-Video-3\TP3-Jeux-Video-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\dalig\OneDrive\Bureau\TP2-Jeux-Video-3\TP3-Jeux-Video-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  3.605 seconds
+Refreshing native plugins compatible for Editor in 15.26 ms, found 9 plugins.
 Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
@@ -140,47 +130,47 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.467 seconds
-Domain Reload Profiling: 3049ms
-	BeginReloadAssembly (203ms)
+- Finished resetting the current domain, in  2.523 seconds
+Domain Reload Profiling: 6120ms
+	BeginReloadAssembly (295ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (37ms)
-	RebuildCommonClasses (76ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (67ms)
-	LoadAllAssembliesAndSetupDomain (1215ms)
-		LoadAssemblies (516ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (74ms)
+	LoadAllAssembliesAndSetupDomain (3160ms)
+		LoadAssemblies (1815ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (779ms)
-			TypeCache.Refresh (711ms)
-				TypeCache.ScanAssembly (685ms)
+		AnalyzeDomain (1502ms)
+			TypeCache.Refresh (1439ms)
+				TypeCache.ScanAssembly (1354ms)
 			ScanForSourceGeneratedMonoScriptInfo (50ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (1467ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (2524ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1131ms)
+		SetupLoadedEditorAssemblies (1313ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (38ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (59ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (150ms)
-			ProcessInitializeOnLoadAttributes (789ms)
-			ProcessInitializeOnLoadMethodAttributes (131ms)
-			AfterProcessingInitializeOnLoad (18ms)
+			BeforeProcessingInitializeOnLoad (147ms)
+			ProcessInitializeOnLoadAttributes (876ms)
+			ProcessInitializeOnLoadMethodAttributes (208ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 1.42 seconds
-Refreshing native plugins compatible for Editor in 13.27 ms, found 9 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 32.32 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6516 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 126 unused Assets / (1.6 MB). Loaded Objects now: 6993.
-Memory consumption went from 265.1 MB to 263.5 MB.
-Total: 92.984500 ms (FindLiveObjects: 6.121400 ms CreateObjectMapping: 10.653600 ms MarkObjects: 71.756100 ms  DeleteObjects: 4.451700 ms)
+Unloading 6515 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 126 unused Assets / (1.6 MB). Loaded Objects now: 6989.
+Memory consumption went from 259.1 MB to 257.5 MB.
+Total: 21.733300 ms (FindLiveObjects: 2.163100 ms CreateObjectMapping: 3.281300 ms MarkObjects: 14.239000 ms  DeleteObjects: 2.044900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -195,681 +185,574 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 15612.604196 seconds.
-  path: Assets/AGWYN's Low Poly Magical Potions Pack/Models/LongPotion_14.fbx
-  artifactKey: Guid(b03d669d9fa3ba84baf13848e76fcf9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/AGWYN's Low Poly Magical Potions Pack/Models/LongPotion_14.fbx using Guid(b03d669d9fa3ba84baf13848e76fcf9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '200901cb762740545848bac484db16f7') in 0.707704 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/AGWYN's Low Poly Magical Potions Pack/Models/LongHandlePotion.008.fbx
-  artifactKey: Guid(d387a0835c3455a40a751c2991119f0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/AGWYN's Low Poly Magical Potions Pack/Models/LongHandlePotion.008.fbx using Guid(d387a0835c3455a40a751c2991119f0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '10c182338a7a272bec42efb7738e7284') in 0.215654 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/AGWYN's Low Poly Magical Potions Pack/Prefabs/LongHandlePotion.011.prefab
-  artifactKey: Guid(8e05eda27f1eabb44999cb20b8f74fa7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/AGWYN's Low Poly Magical Potions Pack/Prefabs/LongHandlePotion.011.prefab using Guid(8e05eda27f1eabb44999cb20b8f74fa7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '12cf514b40d27693e2c1860ba15383bf') in 0.181016 seconds
+  Time since last request: 351311.920018 seconds.
+  path: Assets/Prefabs/Dali/Tavern Interior By I.We.D/Prefabs/Default/bottle1.prefab
+  artifactKey: Guid(f73e8979440854e4db673b7dab1e69a5) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Prefabs/Dali/Tavern Interior By I.We.D/Prefabs/Default/bottle1.prefab using Guid(f73e8979440854e4db673b7dab1e69a5) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bab85c8784ef1f64f4f02491cf0900a3') in 0.447754 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
-  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '06d2b22798b9b189c302ec38be3955ec') in 0.334138 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_Amphora_Whole.prefab
-  artifactKey: Guid(f2b7b9eae59666f479897a6d26d6850f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_Amphora_Whole.prefab using Guid(f2b7b9eae59666f479897a6d26d6850f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '619b81ced882e1b3b5bdcd8c71fb6d73') in 0.216859 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/AGWYN's Low Poly Magical Potions Pack/Scenes/DemoScene.unity
-  artifactKey: Guid(e3d29d2ed05d8504b9c23f8440607850) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/AGWYN's Low Poly Magical Potions Pack/Scenes/DemoScene.unity using Guid(e3d29d2ed05d8504b9c23f8440607850) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'cd0437b5efdfd8c1032add5edc235b51') in 0.028625 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Prefabs/Pierre/Tree005_V1.prefab
-  artifactKey: Guid(9bd7e60f16c0c9b4fa05f049e3cd8f1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Prefabs/Pierre/Tree005_V1.prefab using Guid(9bd7e60f16c0c9b4fa05f049e3cd8f1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'abb0f9edf1bc93cb4da71a69b518e8bf') in 0.034177 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/AGWYN's Low Poly Magical Potions Pack/Prefabs/HandlePotion.015.prefab
-  artifactKey: Guid(e9fcfecfaad60c141a180a44523431a9) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/AGWYN's Low Poly Magical Potions Pack/Prefabs/HandlePotion.015.prefab using Guid(e9fcfecfaad60c141a180a44523431a9) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f12c3e16534ac88beb0997e874da3c50') in 0.031194 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Prefabs/Pierre/Plant008.prefab
-  artifactKey: Guid(2e2cc06df5439104f8fab42dd66e8e91) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Prefabs/Pierre/Plant008.prefab using Guid(2e2cc06df5439104f8fab42dd66e8e91) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '5bafba81e60fa87c3de8d02618713c90') in 0.039800 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_DiningHall_01_Bottle#3.fbx
-  artifactKey: Guid(8c67db829d4459646af2df5502b713de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_DiningHall_01_Bottle#3.fbx using Guid(8c67db829d4459646af2df5502b713de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'dcbdcb60721e19c59f0fe1d681a89eed') in 0.077622 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_PracticeTarget.prefab
-  artifactKey: Guid(31d2c60b47169154b9e7a30684368870) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_PracticeTarget.prefab using Guid(31d2c60b47169154b9e7a30684368870) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '33c6c8a303f48b9c69d4e0bd17f08c29') in 0.048296 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_DiningHall_01_Candels#1.fbx
-  artifactKey: Guid(cb7b9e29b7b4e7d4da921799a3fac130) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_DiningHall_01_Candels#1.fbx using Guid(cb7b9e29b7b4e7d4da921799a3fac130) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '8b170f280e4c358a3c06b5e15b80dbfb') in 0.046576 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/96_Traps_Trap_Cannon.prefab
-  artifactKey: Guid(ba998d105a9565c448068e6ed8407858) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/96_Traps_Trap_Cannon.prefab using Guid(ba998d105a9565c448068e6ed8407858) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a88c97ac94a8399bba6e116252e10ffb') in 0.051352 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/AGWYN's Low Poly Magical Potions Pack/Prefabs/HandlePotion.014.prefab
-  artifactKey: Guid(e447aa106f247df458e072ec0f2449ba) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/AGWYN's Low Poly Magical Potions Pack/Prefabs/HandlePotion.014.prefab using Guid(e447aa106f247df458e072ec0f2449ba) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c044a6950f549138035d39fc3e492aca') in 0.035657 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
-  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '3f2dc50c04c88fd4a33d007020b2fd17') in 0.025951 seconds
+  Time since last request: 0.000961 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Night.mat
+  artifactKey: Guid(d1fdb8e44b28da34d9e922cca0bc740e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Night.mat using Guid(d1fdb8e44b28da34d9e922cca0bc740e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5cfd21d1f78507208e83cb756c19b397') in 0.149384 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Prefabs/Dali/AGWYN's Low Poly Magical Potions Pack/Prefabs/ShortPotion_1.prefab
+  artifactKey: Guid(7300e9d6c12632849bd376e42a42a862) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Dali/AGWYN's Low Poly Magical Potions Pack/Prefabs/ShortPotion_1.prefab using Guid(7300e9d6c12632849bd376e42a42a862) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'df1ee357ee9629416f8b6ec1cccf243e') in 0.101889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Prefabs/Dali/AGWYN's Low Poly Magical Potions Pack/Prefabs/HandlePotion.013.prefab
+  artifactKey: Guid(2576efb9203f9fa498ecafe26bc862fb) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Prefabs/Dali/AGWYN's Low Poly Magical Potions Pack/Prefabs/HandlePotion.013.prefab using Guid(2576efb9203f9fa498ecafe26bc862fb) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '28f5d70c84a4198ca42a956cc339e826') in 0.054805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
   path: Assets/Prefabs/Pierre/Tree005_V1.prefab
   artifactKey: Guid(9bd7e60f16c0c9b4fa05f049e3cd8f1d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
 Start importing Assets/Prefabs/Pierre/Tree005_V1.prefab using Guid(9bd7e60f16c0c9b4fa05f049e3cd8f1d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b0e86cdda40752ae4227130b5a2f6058') in 0.034758 seconds
+ -> (artifact id: 'ace3980e66b669cb2bd505fb021d3f34') in 0.045281 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 12
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/03_Blacksmith_01_IronBar.prefab
-  artifactKey: Guid(793d90f1b3ced354d80bd73df4e73c1e) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/03_Blacksmith_01_IronBar.prefab using Guid(793d90f1b3ced354d80bd73df4e73c1e) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '0bebf530578bac4e2ac550781ef21ee6') in 0.022957 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/AGWYN's Low Poly Magical Potions Pack/Prefabs/Book_Solid.prefab
-  artifactKey: Guid(ba4672641a825984697dcd7d6c56d278) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/AGWYN's Low Poly Magical Potions Pack/Prefabs/Book_Solid.prefab using Guid(ba4672641a825984697dcd7d6c56d278) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '2b8362beef33e1148a268c0dd2b626c0') in 0.065106 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/03_Blacksmith_01_Anvil.fbx
-  artifactKey: Guid(19ec89ffd5564c746b7efc29eaf2fddb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/03_Blacksmith_01_Anvil.fbx using Guid(19ec89ffd5564c746b7efc29eaf2fddb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '5387b498d01d905ebbaf513176b84518') in 0.033257 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/Prefabs/Dali/Tavern Interior By I.We.D/Prefabs/Default/table2.prefab
-  artifactKey: Guid(f7ec2e26e6d67ad4c86f203e8df02436) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Prefabs/Dali/Tavern Interior By I.We.D/Prefabs/Default/table2.prefab using Guid(f7ec2e26e6d67ad4c86f203e8df02436) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ddf6dd3d1eacfefe6fc940e6f2223c37') in 0.025663 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Prefabs/Dali/Tavern Interior By I.We.D/Prefabs/Default/cupboard.prefab
-  artifactKey: Guid(5169533ec1451994da6c8375b97741e2) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Prefabs/Dali/Tavern Interior By I.We.D/Prefabs/Default/cupboard.prefab using Guid(5169533ec1451994da6c8375b97741e2) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '1891b836f141396c1b88cb8b31bc1b12') in 0.023571 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_Chopper.fbx
-  artifactKey: Guid(21676d294d655b5478ce76c58d15f06e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_Chopper.fbx using Guid(21676d294d655b5478ce76c58d15f06e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '71273c70761a5cff13f8fd996f35c49e') in 0.049742 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Prefabs/Dali/LowPolyMedievalPropsLite/Prefabs/Cup_01.prefab
-  artifactKey: Guid(180e2fa043d9e8742a7d8391684bb993) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Prefabs/Dali/LowPolyMedievalPropsLite/Prefabs/Cup_01.prefab using Guid(180e2fa043d9e8742a7d8391684bb993) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd2e26a47a27558b36398996fbdb580ea') in 0.025702 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/99_Decorations_WallBanner_4.prefab
-  artifactKey: Guid(2448b7caaace7e64a8790c8d406f1fda) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/99_Decorations_WallBanner_4.prefab using Guid(2448b7caaace7e64a8790c8d406f1fda) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd91959ef2780ace9ef21ce791c093a78') in 0.060513 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/AGWYN's Low Poly Magical Potions Pack/Prefabs/LongHandlePotion.010.prefab
-  artifactKey: Guid(52822d25511df2f4daf921b5909e0873) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/AGWYN's Low Poly Magical Potions Pack/Prefabs/LongHandlePotion.010.prefab using Guid(52822d25511df2f4daf921b5909e0873) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '9ff5de3cdc8c0fa3119f9e50b0d8e554') in 0.030369 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/AGWYN's Low Poly Magical Potions Pack/Prefabs/ShortHandlePotion.049.prefab
-  artifactKey: Guid(54969b74f86e1134f9f4991a2ed90b2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/AGWYN's Low Poly Magical Potions Pack/Prefabs/ShortHandlePotion.049.prefab using Guid(54969b74f86e1134f9f4991a2ed90b2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '45a55b573e1d735a1059b6a125805182') in 0.055562 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/AGWYN's Low Poly Magical Potions Pack/Prefabs/Potion_2.prefab
-  artifactKey: Guid(4cc7771d476b46b47acab7069b9b0ded) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/AGWYN's Low Poly Magical Potions Pack/Prefabs/Potion_2.prefab using Guid(4cc7771d476b46b47acab7069b9b0ded) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4342083fc9ba7e7c0dff4c3e20b5c29b') in 0.027094 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/97_Othert_Barrel_Whole.fbx
-  artifactKey: Guid(f4a2f9011f80b8149958fbd8accb1077) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/97_Othert_Barrel_Whole.fbx using Guid(f4a2f9011f80b8149958fbd8accb1077) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ae62e59d5ed96bb26aabbfd42a026f80') in 0.042902 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/96_Traps_Trap_FloorWheel.fbx
-  artifactKey: Guid(0702578e4efb1c045acba01655e403dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/96_Traps_Trap_FloorWheel.fbx using Guid(0702578e4efb1c045acba01655e403dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '2b5b088a9cd39e4901b72c3cf2cad966') in 0.045059 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Prefabs/Teleport/Teleport Area.prefab
-  artifactKey: Guid(beb4e2871579447497fe41dfb108e2cd) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Prefabs/Teleport/Teleport Area.prefab using Guid(beb4e2871579447497fe41dfb108e2cd) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '2b32bac37bafb06a9e362b34b4bf79af') in 0.057047 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Prefabs/XR Origin Pieces/Ray Interactor.prefab
-  artifactKey: Guid(ad818c36731146e994540a1896ad8f24) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Prefabs/XR Origin Pieces/Ray Interactor.prefab using Guid(ad818c36731146e994540a1896ad8f24) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4d77b99f546330ef4b2fe7fa3da03a7a') in 0.060031 seconds
+  Time since last request: 0.000032 seconds.
+  path: Assets/Prefabs/Dali/AGWYN's Low Poly Magical Potions Pack/Prefabs/LongHandlePotion.008.prefab
+  artifactKey: Guid(e578354a60f27c24ba6b086765a8fdd2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Dali/AGWYN's Low Poly Magical Potions Pack/Prefabs/LongHandlePotion.008.prefab using Guid(e578354a60f27c24ba6b086765a8fdd2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '83877018930dd2443b5643322a7fefc5') in 0.052514 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
   Time since last request: 0.000029 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/97_Othert_Key_Yellow_2.fbx
-  artifactKey: Guid(9164e96d5f7440a4eb5a8dd1a8e0855f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/97_Othert_Key_Yellow_2.fbx using Guid(9164e96d5f7440a4eb5a8dd1a8e0855f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '318743f2efe2ae802f7a6b746af97c59') in 0.068822 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.001618 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/97_Othert_Key_Green.fbx
-  artifactKey: Guid(7d50fad5f036ead409f2647aaf87020b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/97_Othert_Key_Green.fbx using Guid(7d50fad5f036ead409f2647aaf87020b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '309324420e4a682b3d75349c2f0008e8') in 0.054247 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/XR/XRGeneralSettingsPerBuildTarget.asset
-  artifactKey: Guid(ce6f87372aef0e14696f17eeddceae9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/XR/XRGeneralSettingsPerBuildTarget.asset using Guid(ce6f87372aef0e14696f17eeddceae9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '620bfc5082b82a978f6dfc38b4b0abd2') in 0.052120 seconds
+  path: Assets/Prefabs/Dali/AGWYN's Low Poly Magical Potions Pack/Prefabs/Potion_1.prefab
+  artifactKey: Guid(a3ae5ee3e1376304d960a69f056fc8d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Dali/AGWYN's Low Poly Magical Potions Pack/Prefabs/Potion_1.prefab using Guid(a3ae5ee3e1376304d960a69f056fc8d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5866a470598f37a0d31434dfba81e72c') in 0.068185 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
-  artifactKey: Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader using Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'bde7247a5fd7583b6586b9aae1006b3d') in 0.046498 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
   Time since last request: 0.000035 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_DiningHall_01_Bottle#3.prefab
-  artifactKey: Guid(0ce7cbb5cae6c0449bd02794ea78317f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_DiningHall_01_Bottle#3.prefab using Guid(0ce7cbb5cae6c0449bd02794ea78317f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '8751f94284326741a281889c5b123587') in 0.050646 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_DiningHall_01_Bowl#2.prefab
-  artifactKey: Guid(537fca49233300e4c9196e5a7fab121b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_DiningHall_01_Bowl#2.prefab using Guid(537fca49233300e4c9196e5a7fab121b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '65f89ec16add2b7ca9f47e2de0c93572') in 0.023376 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_DiningHall_01_Cup#1.prefab
-  artifactKey: Guid(76439eb344aa1f8459ecde9f54affbef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_DiningHall_01_Cup#1.prefab using Guid(76439eb344aa1f8459ecde9f54affbef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '9497595f7c354a9b886851028f6b40c8') in 0.055425 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/AGWYN's Low Poly Magical Potions Pack/Prefabs/ShortPotion_14.prefab
-  artifactKey: Guid(e8f48d59cde06ed4790fb968f00f6d56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/AGWYN's Low Poly Magical Potions Pack/Prefabs/ShortPotion_14.prefab using Guid(e8f48d59cde06ed4790fb968f00f6d56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '113bdab3ec3fa95739f711a31837bc91') in 0.044066 seconds
+  path: Assets/Prefabs/Dali/AGWYN's Low Poly Magical Potions Pack/Prefabs/LongHandlePotion.012.prefab
+  artifactKey: Guid(f5f713b998fdb664490ae2df1d54c263) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Dali/AGWYN's Low Poly Magical Potions Pack/Prefabs/LongHandlePotion.012.prefab using Guid(f5f713b998fdb664490ae2df1d54c263) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a9c5fa99939233c0e51d6c905f878127') in 0.063995 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/AGWYN's Low Poly Magical Potions Pack/Models/Potion_1.fbx
-  artifactKey: Guid(ad52bbe8c40fcd5418f91b6b3603b40f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/AGWYN's Low Poly Magical Potions Pack/Models/Potion_1.fbx using Guid(ad52bbe8c40fcd5418f91b6b3603b40f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '402e84f23285ddb756ae9b42d814c751') in 0.053141 seconds
+  Time since last request: 0.000086 seconds.
+  path: Assets/Prefabs/Pierre/Porte.prefab
+  artifactKey: Guid(3667f4ba2fb25f542aaf66c4f8f9d247) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Prefabs/Pierre/Porte.prefab using Guid(3667f4ba2fb25f542aaf66c4f8f9d247) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eab02b12c46decead7fe686997fe45aa') in 0.048737 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000365 seconds.
-  path: Assets/AGWYN's Low Poly Magical Potions Pack/Prefabs/Wand.prefab
-  artifactKey: Guid(ec344f2ab10557444aa669425a264bac) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/AGWYN's Low Poly Magical Potions Pack/Prefabs/Wand.prefab using Guid(ec344f2ab10557444aa669425a264bac) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '25f0b43d6c22257b5a1e1016644fbdfc') in 0.026698 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Prefabs/Dali/table2.prefab
-  artifactKey: Guid(9f30062fc7106a8408b2bd68b4d66c02) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Prefabs/Dali/table2.prefab using Guid(9f30062fc7106a8408b2bd68b4d66c02) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e261f42bde7a20fb477e8cdc98dfdd50') in 0.031007 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 19
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_Key_Yellow.prefab
-  artifactKey: Guid(8e6bcd71fb429ed4cab90a908277c517) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_Key_Yellow.prefab using Guid(8e6bcd71fb429ed4cab90a908277c517) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '5f38134b6238d13e032782909fae25a0') in 0.026246 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/05_Vault_01_Emerald#1.prefab
-  artifactKey: Guid(dd3172e1949ca1b4197adf1c5b340212) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/05_Vault_01_Emerald#1.prefab using Guid(dd3172e1949ca1b4197adf1c5b340212) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '1d35ab9051c42e4dfe774d1b4283d646') in 0.037801 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Scenes/DemoScene_Room2.unity
-  artifactKey: Guid(e36070e4db81ea949b9c51b64d3f3235) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Scenes/DemoScene_Room2.unity using Guid(e36070e4db81ea949b9c51b64d3f3235) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '7bb8a83ae58f18d1357b0b6394cd7b86') in 0.039128 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 45
 ========================================================================
 Received Import Request.
   Time since last request: 0.000044 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/96_Traps_Trap_RamTower.prefab
-  artifactKey: Guid(eef7a51b8a7ba6a4bad2bd1f471c7590) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/96_Traps_Trap_RamTower.prefab using Guid(eef7a51b8a7ba6a4bad2bd1f471c7590) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '2e13e161cf67e41685fae9e38ed44820') in 0.046188 seconds
+  path: Assets/Prefabs/Dali/LowPolyMedievalPropsLite/Prefabs/Candle_01.prefab
+  artifactKey: Guid(74f1aa9e584aa4842aecf049e25f5339) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Dali/LowPolyMedievalPropsLite/Prefabs/Candle_01.prefab using Guid(74f1aa9e584aa4842aecf049e25f5339) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '73595b194a33120c6d2bf212949d0285') in 0.077966 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/04_Bedroom_01_Matrace_ForBeed_2.prefab
-  artifactKey: Guid(fa8c17aa3090c2a4e993067b09233bb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/04_Bedroom_01_Matrace_ForBeed_2.prefab using Guid(fa8c17aa3090c2a4e993067b09233bb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b4937f1d8ff0fbbb2bf2657c93fd51a1') in 0.039415 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_Library_01_InkWell#1.prefab
-  artifactKey: Guid(2f570eda51c25004f9aa924d657af75c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_Library_01_InkWell#1.prefab using Guid(2f570eda51c25004f9aa924d657af75c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd7cde4489cd798b51cc5bf20594910f1') in 0.028819 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_Splash_1.prefab
-  artifactKey: Guid(d34bde90053bf2a4d843e3c500a0fb4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_Splash_1.prefab using Guid(d34bde90053bf2a4d843e3c500a0fb4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c2a83226d7adbba7d467d1f050f05da0') in 0.027182 seconds
+  Time since last request: 0.000058 seconds.
+  path: Assets/Prefabs/Dali/LowPolyMedievalPropsLite/Models/Cup_01.fbx
+  artifactKey: Guid(dd79d1ed7df62f648869bb9fca16062a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Dali/LowPolyMedievalPropsLite/Models/Cup_01.fbx using Guid(dd79d1ed7df62f648869bb9fca16062a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9f00c8ad42d522bacdb9efa6e2e5e60b') in 0.107029 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
   Time since last request: 0.000033 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/02_Kitchen_01_CuttingBoard#2.prefab
-  artifactKey: Guid(3b4da24dd8e66214c9d50248a0effe83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/02_Kitchen_01_CuttingBoard#2.prefab using Guid(3b4da24dd8e66214c9d50248a0effe83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '9927778197233afc654b94a48f90a9c9') in 0.026463 seconds
+  path: Assets/Prefabs/Dali/AGWYN's Low Poly Magical Potions Pack/Scenes/DemoScene.unity
+  artifactKey: Guid(e3d29d2ed05d8504b9c23f8440607850) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Dali/AGWYN's Low Poly Magical Potions Pack/Scenes/DemoScene.unity using Guid(e3d29d2ed05d8504b9c23f8440607850) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0a3c877767a316cd7088563702648f8c') in 0.065909 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Forest Pack/Models/Plants/Mushroom001.fbx
-  artifactKey: Guid(a7d47b111203429429d8710317d23109) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Forest Pack/Models/Plants/Mushroom001.fbx using Guid(a7d47b111203429429d8710317d23109) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ee35a99658877ce04e6d0faa401dcf3b') in 0.066705 seconds
+  Time since last request: 0.000058 seconds.
+  path: Assets/Prefabs/Dali/LowPolyDungeonsLite/Textures/LowPolyDungeonsLite_Texture_01.png
+  artifactKey: Guid(3368dcc05b2e368459930672ab30f04b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Dali/LowPolyDungeonsLite/Textures/LowPolyDungeonsLite_Texture_01.png using Guid(3368dcc05b2e368459930672ab30f04b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '298cfa69c6d8a09794efc52db3048641') in 0.153448 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_DiningHall_01_Cup#2.prefab
-  artifactKey: Guid(c64bf04713b5e0549b27844ba6bfc9c9) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_DiningHall_01_Cup#2.prefab using Guid(c64bf04713b5e0549b27844ba6bfc9c9) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f5a06dd3e1f998d3f8921def7c3acb4c') in 0.022062 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Forest Pack/Prefabs/Tree004_V6.prefab
-  artifactKey: Guid(9fd02bc503e6b2946bb646476037c36f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Forest Pack/Prefabs/Tree004_V6.prefab using Guid(9fd02bc503e6b2946bb646476037c36f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ca5a97013ec21505ff25a8eac09a45fd') in 0.023401 seconds
+  Time since last request: 0.001117 seconds.
+  path: Assets/Prefabs/Dali/AGWYN's Low Poly Magical Potions Pack/Models/ShortPotion_2.fbx
+  artifactKey: Guid(2811ad5be76db444cbb052f10e4fa6f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Dali/AGWYN's Low Poly Magical Potions Pack/Models/ShortPotion_2.fbx using Guid(2811ad5be76db444cbb052f10e4fa6f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'be4cd1752580705ea16287aeaa5da53d') in 0.073435 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Prefabs/Dali/Tavern Interior By I.We.D/Prefabs/Default/barCounter.prefab
-  artifactKey: Guid(a831f2ef0ed36c443b42e4d50ee67217) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Prefabs/Dali/Tavern Interior By I.We.D/Prefabs/Default/barCounter.prefab using Guid(a831f2ef0ed36c443b42e4d50ee67217) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e9caf82f8e79ce59f97d0e109aebd6e4') in 0.032366 seconds
+  Time since last request: 0.000034 seconds.
+  path: Assets/Prefabs/Dali/LowPolyMedievalPropsLite/Prefabs/Cup_02.prefab
+  artifactKey: Guid(bb470d63914d5214081b7cf78b5bf7cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Dali/LowPolyMedievalPropsLite/Prefabs/Cup_02.prefab using Guid(bb470d63914d5214081b7cf78b5bf7cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '588f554290aaf3ca8f1fd0c1ec0de2f7') in 0.081069 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/AGWYN's Low Poly Magical Potions Pack/Models/Book_Solid.fbx
-  artifactKey: Guid(0b73d8a869ea7f640a831aa2e6d9fec4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/AGWYN's Low Poly Magical Potions Pack/Models/Book_Solid.fbx using Guid(0b73d8a869ea7f640a831aa2e6d9fec4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c675b40971b6b69a7c4e843b665cc427') in 0.056077 seconds
+  Time since last request: 0.000038 seconds.
+  path: Assets/Prefabs/Dali/Medieval Models Pack/Sources/potion red.FBX
+  artifactKey: Guid(e17824c203fd546008226b68b2eb429b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Dali/Medieval Models Pack/Sources/potion red.FBX using Guid(e17824c203fd546008226b68b2eb429b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e730d57b2e86bd3f9118cb32baf20017') in 0.065623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Prefabs/Dali/AGWYN's Low Poly Magical Potions Pack/Prefabs/Rune_Base.prefab
+  artifactKey: Guid(1326a9b70425281479e0fab95d509fa2) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Prefabs/Dali/AGWYN's Low Poly Magical Potions Pack/Prefabs/Rune_Base.prefab using Guid(1326a9b70425281479e0fab95d509fa2) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cae77e5681e27c21da3841221479e507') in 0.112379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Forest Pack/Models/Plants/Plant008.fbx
+  artifactKey: Guid(4dc8928c21c3ed1488bd372a8af3a443) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Forest Pack/Models/Plants/Plant008.fbx using Guid(4dc8928c21c3ed1488bd372a8af3a443) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '04ce325f6b8c9b240ae495dce8a61cd1') in 0.165296 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 11
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Prefabs/Dali/LowPolyMedievalPropsLite/Prefabs/Cup_01.prefab
-  artifactKey: Guid(180e2fa043d9e8742a7d8391684bb993) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Prefabs/Dali/LowPolyMedievalPropsLite/Prefabs/Cup_01.prefab using Guid(180e2fa043d9e8742a7d8391684bb993) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '864dd931d58bcae5b0115e4fd3ddf541') in 0.050304 seconds
+  Time since last request: 0.000265 seconds.
+  path: Assets/Prefabs/Dali/Tavern Interior By I.We.D/Meshes/barrel.mesh
+  artifactKey: Guid(37cfe8e406783af48aeab31235ff1ab6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Dali/Tavern Interior By I.We.D/Meshes/barrel.mesh using Guid(37cfe8e406783af48aeab31235ff1ab6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1e84391caf2393fd418c105c9091640e') in 0.045629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Prefabs/Dali/Tavern Interior By I.We.D/Meshes/mug.mesh
+  artifactKey: Guid(a7fe9cc3c71dbb44e9aece46d9295a41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Dali/Tavern Interior By I.We.D/Meshes/mug.mesh using Guid(a7fe9cc3c71dbb44e9aece46d9295a41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b02f5bfe43b68feff5b6fc7a462e3d54') in 0.058932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Prefabs/Dali/Tavern Interior By I.We.D/Meshes/bottle3.mesh
+  artifactKey: Guid(b279e726300cb0847827866a6643dc12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Dali/Tavern Interior By I.We.D/Meshes/bottle3.mesh using Guid(b279e726300cb0847827866a6643dc12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6fc5025c3b73802380aae1ccc24f944d') in 0.026257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Prefabs/Dali/Tavern Interior By I.We.D/Meshes/barCounter.mesh
+  artifactKey: Guid(d8dd76e6cc1d29545a04f40370dd4252) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Dali/Tavern Interior By I.We.D/Meshes/barCounter.mesh using Guid(d8dd76e6cc1d29545a04f40370dd4252) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '83c26b7f79a6b833bd98d6b259104eec') in 0.037491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000616 seconds.
+  path: Assets/Prefabs/Dali/Tavern Interior By I.We.D/Prefabs/Default/bottle3.prefab
+  artifactKey: Guid(43c52e14641b3eb4695207350d2f4b8c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Prefabs/Dali/Tavern Interior By I.We.D/Prefabs/Default/bottle3.prefab using Guid(43c52e14641b3eb4695207350d2f4b8c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c199558e348c1135faeab394a89736bb') in 0.040152 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Prefabs/Dali/LowPolyMedievalPropsLite/Prefabs/Cup_02.prefab
-  artifactKey: Guid(bb470d63914d5214081b7cf78b5bf7cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Prefabs/Dali/LowPolyMedievalPropsLite/Prefabs/Cup_02.prefab using Guid(bb470d63914d5214081b7cf78b5bf7cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '52c3b9ff2a8b4a51503694d94ab25759') in 0.044111 seconds
+  Time since last request: 0.000037 seconds.
+  path: Assets/Scenes/Terrain_Pierre.unity
+  artifactKey: Guid(736d78dd1b48d9947871540894a88003) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Terrain_Pierre.unity using Guid(736d78dd1b48d9947871540894a88003) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7129b889327fbedc95706adc20611c9f') in 0.039688 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Forest Pack/Models/Plants/Tree003_V1.fbx
-  artifactKey: Guid(5ced7b8c1f5ed7b438ff295b850aeb00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Forest Pack/Models/Plants/Tree003_V1.fbx using Guid(5ced7b8c1f5ed7b438ff295b850aeb00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c0bbc9a4771a5cd97dcb4dc51806b772') in 0.072116 seconds
+  Time since last request: 0.000045 seconds.
+  path: Assets/Prefabs/Dali/AGWYN's Low Poly Magical Potions Pack/Prefabs/LongPotion_3.prefab
+  artifactKey: Guid(89c1bd1051ecf1445b55f196615df899) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Prefabs/Dali/AGWYN's Low Poly Magical Potions Pack/Prefabs/LongPotion_3.prefab using Guid(89c1bd1051ecf1445b55f196615df899) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '53ff59a32059575e9db17aea3b17048d') in 0.050805 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 10
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Prefabs/Dali/Tavern Interior By I.We.D/Meshes/chandelier.mesh
-  artifactKey: Guid(205ac144e1778ba44aad8a86e2e4b76c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Prefabs/Dali/Tavern Interior By I.We.D/Meshes/chandelier.mesh using Guid(205ac144e1778ba44aad8a86e2e4b76c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '8b3d9902cc724ffad9cd09d35ff226d1') in 0.020809 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Prefabs/Dali/Tavern Interior By I.We.D/Meshes/torch.mesh
-  artifactKey: Guid(c48a17ee31bc86a49a17d34bc9a9fbd4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Prefabs/Dali/Tavern Interior By I.We.D/Meshes/torch.mesh using Guid(c48a17ee31bc86a49a17d34bc9a9fbd4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '333321c3b22979e0680af8b69fc276e2') in 0.029733 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Forest Pack/Models/Plants/Plant002_V1.fbx
-  artifactKey: Guid(f2b0dfca5f6191542b7f738930142fd6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Forest Pack/Models/Plants/Plant002_V1.fbx using Guid(f2b0dfca5f6191542b7f738930142fd6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '0b194dd723e443e1ed31b9127f276c89') in 0.065359 seconds
+  Time since last request: 0.000086 seconds.
+  path: Assets/Prefabs/Dali/LowPolyMedievalPropsLite/Prefabs/Plate_04.prefab
+  artifactKey: Guid(4c48cf7d06fb67248992c3758b08c410) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Dali/LowPolyMedievalPropsLite/Prefabs/Plate_04.prefab using Guid(4c48cf7d06fb67248992c3758b08c410) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'db5991c776e342d9f2d7ca91ffcfc2cc') in 0.049854 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Prefabs/Dali/Tavern Interior By I.We.D/Meshes/pitcher.mesh
-  artifactKey: Guid(42cbfce03c4dac349ad332b36ecc308a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Prefabs/Dali/Tavern Interior By I.We.D/Meshes/pitcher.mesh using Guid(42cbfce03c4dac349ad332b36ecc308a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '00d7053252185da40e68821024387574') in 0.014814 seconds
+  Time since last request: 0.000620 seconds.
+  path: Assets/Prefabs/Dali/Tavern Interior By I.We.D/Meshes/table2.mesh
+  artifactKey: Guid(cf48a006743f22342b00e23e1a2a34a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Dali/Tavern Interior By I.We.D/Meshes/table2.mesh using Guid(cf48a006743f22342b00e23e1a2a34a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dfe78ffb68243a9627dbb2a45f51af51') in 0.047694 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
-  artifactKey: Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset using Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '07c0c1c783502fea0120f02caff7f0f9') in 0.091131 seconds
+  Time since last request: 0.000038 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.3.2/XR Device Simulator/XR Device Simulator Controls.inputactions
+  artifactKey: Guid(da2b439d1a2de5c46a4f428f8cf4fe19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.3.2/XR Device Simulator/XR Device Simulator Controls.inputactions using Guid(da2b439d1a2de5c46a4f428f8cf4fe19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '692018674966635a6fb570a6704f6712') in 0.166074 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 26
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/03_Blacksmith_01_Hammer#1.prefab
-  artifactKey: Guid(b14c26b3ab0a0a54a98340c8d9fb1fff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/03_Blacksmith_01_Hammer#1.prefab using Guid(b14c26b3ab0a0a54a98340c8d9fb1fff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '8c618fc08733b607360cb1840fd8a649') in 0.053776 seconds
+  Time since last request: 0.000030 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/XRI Default Continuous Turn.preset
+  artifactKey: Guid(0caad3af14f9a414dbdf25ed41e5aa47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/XRI Default Continuous Turn.preset using Guid(0caad3af14f9a414dbdf25ed41e5aa47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1255fc4afa107a6d9c356ec2727c04bc') in 0.054791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/XR/XRGeneralSettingsPerBuildTarget.asset
+  artifactKey: Guid(ce6f87372aef0e14696f17eeddceae9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XR/XRGeneralSettingsPerBuildTarget.asset using Guid(ce6f87372aef0e14696f17eeddceae9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '225ae58f612ac98ea8f3922e806e7e2a') in 0.109490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Prefabs/Dali/AGWYN's Low Poly Magical Potions Pack/Prefabs/ShortHandlePotion.041.prefab
+  artifactKey: Guid(87ee4103d5914da4cb47d5a3218820ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Dali/AGWYN's Low Poly Magical Potions Pack/Prefabs/ShortHandlePotion.041.prefab using Guid(87ee4103d5914da4cb47d5a3218820ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9967bd36dd3600a7dc72567b01426c07') in 0.034446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Prefabs/Dali/Medieval Models Pack/Prefabs/PotionBlue.prefab
+  artifactKey: Guid(6764342b8cf9b48018d4a023a90be95e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Dali/Medieval Models Pack/Prefabs/PotionBlue.prefab using Guid(6764342b8cf9b48018d4a023a90be95e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4a7c11ecb42da00529b8f4179f231d64') in 0.036102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Prefabs/Dali/CatBorg Studio/3D Dungeon Lowpoly Pack/Materials/M_Imphenzia_LowPollyStyle.mat
+  artifactKey: Guid(6209e65906b7d3b45ae8ea4784695500) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Dali/CatBorg Studio/3D Dungeon Lowpoly Pack/Materials/M_Imphenzia_LowPollyStyle.mat using Guid(6209e65906b7d3b45ae8ea4784695500) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a73e9ad7b5b5de3724d31677c2c347b7') in 0.055671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Prefabs/Dali/Red Nebula Studios/RNLowPolyDungeonLite/Models/Floor_Tiles_Diagonal.fbx
+  artifactKey: Guid(57d8b9a953a3a5742bca334e2a7fd2da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Dali/Red Nebula Studios/RNLowPolyDungeonLite/Models/Floor_Tiles_Diagonal.fbx using Guid(57d8b9a953a3a5742bca334e2a7fd2da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '710a227cb9f2dcda0ecca7787983e4d9') in 0.055282 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000043 seconds.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Prefabs/Dali/Tavern Interior By I.We.D/Prefabs/Default/bottle1.prefab
+  artifactKey: Guid(f73e8979440854e4db673b7dab1e69a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Dali/Tavern Interior By I.We.D/Prefabs/Default/bottle1.prefab using Guid(f73e8979440854e4db673b7dab1e69a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f45d0dedb2a7f70c5639646065cac769') in 0.050991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Prefabs/Dali/Tavern Interior By I.We.D/Prefabs/Default/barrelCrane.prefab
+  artifactKey: Guid(e72476fa8d7e0ce448789fcc8ebb2065) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Dali/Tavern Interior By I.We.D/Prefabs/Default/barrelCrane.prefab using Guid(e72476fa8d7e0ce448789fcc8ebb2065) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd1f472e9402aa7b3706d21d61634c627') in 0.057314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Prefabs/Dali/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/99_Decorations_WallBanner_1.prefab
+  artifactKey: Guid(cb43e42ad7ce04a4c9f29223eb3e62f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Dali/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/99_Decorations_WallBanner_1.prefab using Guid(cb43e42ad7ce04a4c9f29223eb3e62f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a5175eabc31db8db1cbbffc7cb90c9cf') in 0.095046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Prefabs/Dali/AGWYN's Low Poly Magical Potions Pack/Prefabs/ShortHandlePotion.039.prefab
+  artifactKey: Guid(b5ff8dc552229f34cb228eda1032be66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Dali/AGWYN's Low Poly Magical Potions Pack/Prefabs/ShortHandlePotion.039.prefab using Guid(b5ff8dc552229f34cb228eda1032be66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '26ce647e780174c3c5246df6bd05cb5c') in 0.037631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+  artifactKey: Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader using Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c83cef313a373a3f1c5af33c82797025') in 0.047234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
   path: Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Models/XRControllerRight.fbx
   artifactKey: Guid(11cd62256b1d470f922b2c8e6446cc77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
 Start importing Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Models/XRControllerRight.fbx using Guid(11cd62256b1d470f922b2c8e6446cc77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '58cb426be54a19ffddebdffb00ce87de') in 0.071215 seconds
+ -> (artifact id: '3bca805f1dceec86121e967d285fd7b3') in 0.068954 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 52
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000535 seconds.
-  path: Assets/Prefabs/Dali/Tavern Interior By I.We.D/Prefabs/Default/bench.prefab
-  artifactKey: Guid(8c72fe8c3608ac141b2e7a0df0ad0e8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Prefabs/Dali/Tavern Interior By I.We.D/Prefabs/Default/bench.prefab using Guid(8c72fe8c3608ac141b2e7a0df0ad0e8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd0d58ed676704d8adb93be12bf1c73bf') in 0.035699 seconds
+  Time since last request: 0.000039 seconds.
+  path: Assets/Prefabs/Dali/Tavern Interior By I.We.D/Prefabs/Default/bottle3.prefab
+  artifactKey: Guid(43c52e14641b3eb4695207350d2f4b8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Dali/Tavern Interior By I.We.D/Prefabs/Default/bottle3.prefab using Guid(43c52e14641b3eb4695207350d2f4b8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '341c93264cba415a62076aec9a85282a') in 0.064234 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Models/Primitive_Wedge.fbx
-  artifactKey: Guid(ab3a79eba4de4be0ad5fead9fb858190) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Models/Primitive_Wedge.fbx using Guid(ab3a79eba4de4be0ad5fead9fb858190) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '96c4aa7457bf3de391c58f0b79ba83fa') in 0.055923 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Prefabs/Dali/Tavern Interior By I.We.D/Prefabs/Default/box.prefab
-  artifactKey: Guid(19e8d3a5d6fd6c645b21b4db508743c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Prefabs/Dali/Tavern Interior By I.We.D/Prefabs/Default/box.prefab using Guid(19e8d3a5d6fd6c645b21b4db508743c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '2c071b99746b9014aa541ca1ca127f23') in 0.036461 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs
-  artifactKey: Guid(07b3638c2f5db5b479ff24c2859713d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs using Guid(07b3638c2f5db5b479ff24c2859713d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '39ca4a3cbf9c757ad9b3f14034b515c4') in 0.031347 seconds
+  Time since last request: 0.000034 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Scripts/DynamicMoveProvider.cs
+  artifactKey: Guid(9b1e8c997df241c1a67045eeac79b41b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Scripts/DynamicMoveProvider.cs using Guid(9b1e8c997df241c1a67045eeac79b41b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '80682f9b427b3d36696fbf1b825b037d') in 0.051096 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001146 seconds.
-  path: Assets/Prefabs/Dali/Tavern Interior By I.We.D/Prefabs/Default/shelf.prefab
-  artifactKey: Guid(f70d7840be4b49e40a999d73a5d8738e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Prefabs/Dali/Tavern Interior By I.We.D/Prefabs/Default/shelf.prefab using Guid(f70d7840be4b49e40a999d73a5d8738e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '736d6fd251b85f2b093b4d4604312cad') in 0.061578 seconds
+  Time since last request: 0.000070 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Models/Primitive_Torus.fbx
+  artifactKey: Guid(f077c919501a44778a0c2edb6eb1a54a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Models/Primitive_Torus.fbx using Guid(f077c919501a44778a0c2edb6eb1a54a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dc08d5707941d290e733f5e2d757aaaf') in 0.057030 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Prefabs/Dali/LowPolyMedievalPropsLite/Prefabs/Cup_02.prefab
-  artifactKey: Guid(bb470d63914d5214081b7cf78b5bf7cf) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Prefabs/Dali/LowPolyMedievalPropsLite/Prefabs/Cup_02.prefab using Guid(bb470d63914d5214081b7cf78b5bf7cf) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '82b8914cdeb91bb3a09f6bd80e2b88b0') in 0.025683 seconds
+  Time since last request: 0.000060 seconds.
+  path: Assets/Prefabs/Dali/AGWYN's Low Poly Magical Potions Pack/Models/LongPotion_18.fbx
+  artifactKey: Guid(6763b4418d3f59a4cb8f78893c174294) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Dali/AGWYN's Low Poly Magical Potions Pack/Models/LongPotion_18.fbx using Guid(6763b4418d3f59a4cb8f78893c174294) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e2609e1280ad4d90783c8fe6a8312326') in 0.053935 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Prefabs/XR Origin Pieces/XR Origin Preconfigured.prefab
-  artifactKey: Guid(f6336ac4ac8b4d34bc5072418cdc62a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Prefabs/XR Origin Pieces/XR Origin Preconfigured.prefab using Guid(f6336ac4ac8b4d34bc5072418cdc62a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'af06e8248e4f66349ef0604aa3f7c938') in 0.221218 seconds
+  Time since last request: 0.000073 seconds.
+  path: Assets/Prefabs/Dali/AGWYN's Low Poly Magical Potions Pack/Models/HandlePotion.015.fbx
+  artifactKey: Guid(ac468260e6b1c3748b6b6c4ff9f0fae5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Dali/AGWYN's Low Poly Magical Potions Pack/Models/HandlePotion.015.fbx using Guid(ac468260e6b1c3748b6b6c4ff9f0fae5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b30b8c6763a3080cdbcdb38aea4d6957') in 0.100239 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 267
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Models/XRControllerLeft.fbx
-  artifactKey: Guid(be3083a5f26d4e859d594ecbe632f87e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Models/XRControllerLeft.fbx using Guid(be3083a5f26d4e859d594ecbe632f87e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b7dacebba2415594e3221f73c38b2669') in 0.053722 seconds
+  Time since last request: 0.000042 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.3.2/XR Device Simulator/UI/ControllerDevice/ControllerOverlayLinesLeft.png
+  artifactKey: Guid(cd4fe4c19a40743a6896069a50a394ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.3.2/XR Device Simulator/UI/ControllerDevice/ControllerOverlayLinesLeft.png using Guid(cd4fe4c19a40743a6896069a50a394ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ced1bb980466b1d2b7ef853b0804bce1') in 0.091183 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 52
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.3.2/XR Device Simulator/XR Device Controller Controls.inputactions
-  artifactKey: Guid(0be0028c24f2a4c14a96b6aa39055933) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Samples/XR Interaction Toolkit/2.3.2/XR Device Simulator/XR Device Controller Controls.inputactions using Guid(0be0028c24f2a4c14a96b6aa39055933) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'fcf955bbf78270a911490bab0c59fa94') in 0.055338 seconds
+  Time since last request: 0.000057 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Prefabs/XR Origin Pieces/Ray Interactor.prefab
+  artifactKey: Guid(ad818c36731146e994540a1896ad8f24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Prefabs/XR Origin Pieces/Ray Interactor.prefab using Guid(ad818c36731146e994540a1896ad8f24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '82d63260a54ca6cd7cad8f46eaaef3f6') in 0.188017 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000557 seconds.
-  path: Assets/Blink/Art/Textures/StylizedLavaTextures/Dry_Lava/Dry_Lava_BaseColor.png
-  artifactKey: Guid(191dc07ce4b300c46b8135046fe1cc7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Blink/Art/Textures/StylizedLavaTextures/Dry_Lava/Dry_Lava_BaseColor.png using Guid(191dc07ce4b300c46b8135046fe1cc7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f16ba2cb57126930ee319d4f65f1f256') in 0.092992 seconds
+  Time since last request: 0.000069 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Scripts/PokeStation/IncrementUIText.cs
+  artifactKey: Guid(ba6ff5e7c92519444bc2a7ca46558963) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Scripts/PokeStation/IncrementUIText.cs using Guid(ba6ff5e7c92519444bc2a7ca46558963) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd30ecfb1c540f9e13bf475d5b23e109') in 0.067800 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Prefabs/XR Origin Pieces/XR Controller Left.prefab
+  artifactKey: Guid(1392f805216c47742996d4742c80721c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Prefabs/XR Origin Pieces/XR Controller Left.prefab using Guid(1392f805216c47742996d4742c80721c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9d3ca7e2b095422081f9073c4f4d8e06') in 0.058608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 51
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Prefabs/UI_2D/ModalSingleButton.prefab
+  artifactKey: Guid(c24a7635b5761984d81cf6c4aac26e0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Prefabs/UI_2D/ModalSingleButton.prefab using Guid(c24a7635b5761984d81cf6c4aac26e0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd558fdb30950f663b829bc0efc2217fa') in 0.123201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.3.2/XR Device Simulator/UI/HeadDevice/HMDOverlay.png
+  artifactKey: Guid(fb2db2f40ceaf458085c82fc17cfe800) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.3.2/XR Device Simulator/UI/HeadDevice/HMDOverlay.png using Guid(fb2db2f40ceaf458085c82fc17cfe800) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '832369ea980574aca7d2867338ee86ba') in 0.111838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.3.2/XR Device Simulator/UI/General/CloseWindow.png
+  artifactKey: Guid(c76518a5819794083a346812c0906b77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.3.2/XR Device Simulator/UI/General/CloseWindow.png using Guid(c76518a5819794083a346812c0906b77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '85d61f080b4c35fece7e95d1e703b32b') in 0.093281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Prefabs/Dali/AGWYN's Low Poly Magical Potions Pack/Prefabs/LongPotion_18.prefab
+  artifactKey: Guid(0a83d00c10e4195459dc04b6a89d2ac7) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Prefabs/Dali/AGWYN's Low Poly Magical Potions Pack/Prefabs/LongPotion_18.prefab using Guid(0a83d00c10e4195459dc04b6a89d2ac7) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '01fa5a7907a2475c800f774a8f67fd12') in 0.045131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.002417 seconds.
+  path: Assets/Prefabs/Dali/AGWYN's Low Poly Magical Potions Pack/Prefabs/ShortHandlePotion.049.prefab
+  artifactKey: Guid(54969b74f86e1134f9f4991a2ed90b2b) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Prefabs/Dali/AGWYN's Low Poly Magical Potions Pack/Prefabs/ShortHandlePotion.049.prefab using Guid(54969b74f86e1134f9f4991a2ed90b2b) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '32f7f7c8e74fbc47ef2196a83002015c') in 0.044823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Prefabs/XR Origin Pieces/XR Origin Preconfigured.prefab
+  artifactKey: Guid(f6336ac4ac8b4d34bc5072418cdc62a0) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Prefabs/XR Origin Pieces/XR Origin Preconfigured.prefab using Guid(f6336ac4ac8b4d34bc5072418cdc62a0) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '97045ddafa56be7580fd3781993e19d1') in 0.177665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 315
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Prefabs/Dali/AGWYN's Low Poly Magical Potions Pack/Models/HandlePotion.016.fbx
+  artifactKey: Guid(71b29433212792a48996cf13ff9691df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Dali/AGWYN's Low Poly Magical Potions Pack/Models/HandlePotion.016.fbx using Guid(71b29433212792a48996cf13ff9691df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fe2cd19749466ec617b7be3d944afd13') in 0.068012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Prefabs/Dali/AGWYN's Low Poly Magical Potions Pack/Prefabs/ShortPotion_1.prefab
+  artifactKey: Guid(7300e9d6c12632849bd376e42a42a862) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Prefabs/Dali/AGWYN's Low Poly Magical Potions Pack/Prefabs/ShortPotion_1.prefab using Guid(7300e9d6c12632849bd376e42a42a862) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7a43317e9f2a643f370893533293f2c4') in 0.047782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Prefabs/Dali/AGWYN's Low Poly Magical Potions Pack/Prefabs/HandlePotion.012.prefab
+  artifactKey: Guid(0778feffdbad99241b124082dea58926) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Dali/AGWYN's Low Poly Magical Potions Pack/Prefabs/HandlePotion.012.prefab using Guid(0778feffdbad99241b124082dea58926) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'afc19742fd624c30e5979f410fbccc1d') in 0.080238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000761 seconds.
+  path: Assets/XRI/Settings/Resources/XRDeviceSimulatorSettings.asset
+  artifactKey: Guid(da61641ae54141c4392fcbe89d359cae) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/XRI/Settings/Resources/XRDeviceSimulatorSettings.asset using Guid(da61641ae54141c4392fcbe89d359cae) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '72e7339b813b6e65b2a75a2727c178ae') in 0.058658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.3.2/XR Device Simulator/UI/General/OpenWindow.png
+  artifactKey: Guid(633d1ace045fe402a9b307cb58251aa4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.3.2/XR Device Simulator/UI/General/OpenWindow.png using Guid(633d1ace045fe402a9b307cb58251aa4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a57667a90e0d377dd21c3d8d84656264') in 0.123631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
+  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e5620e980515a27b9bcd457b00949dff') in 0.106474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Materials/Texture_bois.mat
+  artifactKey: Guid(12f03e1689fc95e4e82078bdc778f1ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/Texture_bois.mat using Guid(12f03e1689fc95e4e82078bdc778f1ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9704a5c21695f7c3a5098dab482b71e4') in 0.044887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Prefabs/Teleport/Blocking Teleport Reticle.prefab
+  artifactKey: Guid(a3fde713df4d99042a0403c4be9eea32) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Prefabs/Teleport/Blocking Teleport Reticle.prefab using Guid(a3fde713df4d99042a0403c4be9eea32) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8c2b7fd067269973c85831ce03c86ab5') in 0.039102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
 Editor requested this worker to shutdown with reason: balancing worker count downwards
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: L’opération d’entrée/sortie a été abandonnée en raison de l’arrêt d’un thread ou à la demande d’une application.
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0
