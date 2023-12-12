@@ -1103,7 +1103,6 @@ GameObject:
   m_Component:
   - component: {fileID: 437848}
   - component: {fileID: 9537784}
-  - component: {fileID: 251108176835184591}
   m_Layer: 0
   m_Name: Cat
   m_TagString: Untagged
@@ -1149,24 +1148,3 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!65 &251108176835184591
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 137848}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 8.532161, y: 9.934116, z: 12.041073}
-  m_Center: {x: -0.108869076, y: 4.467058, z: 0.9243946}
