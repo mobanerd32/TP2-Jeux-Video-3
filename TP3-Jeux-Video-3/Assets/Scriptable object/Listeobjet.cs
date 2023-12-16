@@ -9,6 +9,15 @@ public class Listeobjet : ScriptableObject
     private string[] ListeObjet;
 
     [SerializeField] 
-    private int[] nombreObjet;
+    public int[] nombreObjet;
     
+
+    /// <summary>
+    /// Start is called on the frame when a script is enabled just before
+    /// any of the Update methods is called the first time.
+    /// </summary>
+    public void resetValue()
+    {
+        nombreObjet[0] = 6;
+    }
 }
