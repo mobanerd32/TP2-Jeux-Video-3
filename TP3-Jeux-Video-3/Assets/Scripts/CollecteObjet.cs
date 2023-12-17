@@ -46,7 +46,7 @@ public class CollecteObjet : MonoBehaviour
     /// </summary>
     private void Start()
     {
-        listeobjet.resetValue();
+        
         for(int i = 0; i<listeTexte.Length; i++){
             listeTexte[i].text = listeobjet.nombreObjet[i].ToString();
         }
