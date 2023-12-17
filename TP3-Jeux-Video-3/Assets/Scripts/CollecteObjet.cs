@@ -17,8 +17,23 @@ public class CollecteObjet : MonoBehaviour
             
             case "plante":
                 other.gameObject.SetActive(false);
-                listeobjet.nombreObjet[0] -= 1;
+                listeobjet.nombreObjet[0] --;
                 listeTexte[0].text = listeobjet.nombreObjet[0].ToString();
+                break;
+            case "champignon":
+                other.gameObject.SetActive(false);
+                listeobjet.nombreObjet[1] --;
+                listeTexte[1].text = listeobjet.nombreObjet[1].ToString();
+                break;
+            case "petit arbre":
+                other.gameObject.SetActive(false);
+                listeobjet.nombreObjet[2] --;
+                listeTexte[2].text = listeobjet.nombreObjet[2].ToString();
+                break;
+            case "pierre magique":
+                other.gameObject.SetActive(false);
+                listeobjet.nombreObjet[3] --;
+                listeTexte[3].text = listeobjet.nombreObjet[3].ToString();
                 break;
         }
         

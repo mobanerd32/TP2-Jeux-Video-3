@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ListeObjet:
   - plante
-  - 
-  - 
-  - 
-  nombreObjet: 06000000
+  - champignon
+  - petit arbre
+  - pierre magique
+  nombreObjet: 06000000020000000400000003000000

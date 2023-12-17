@@ -10,6 +10,8 @@ public class Listeobjet : ScriptableObject
 
     [SerializeField] 
     public int[] nombreObjet;
+
+    public float tempsDeJeu = 0;
     
 
     /// <summary>
@@ -19,5 +21,10 @@ public class Listeobjet : ScriptableObject
     public void resetValue()
     {
         nombreObjet[0] = 6;
+        nombreObjet[1] = 2;
+        nombreObjet[2] = 4;
+        nombreObjet[3] = 3;
+
+        
     }
 }
