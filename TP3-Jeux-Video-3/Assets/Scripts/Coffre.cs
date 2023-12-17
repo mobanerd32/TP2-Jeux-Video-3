@@ -17,11 +17,15 @@ public class Coffre : MonoBehaviour
     /// touching another rigidbody/collider.
     /// </summary>
     /// <param name="other">The Collision data associated with this collision.</param>
-    private void OnCollisionEnter(Collision other)
+    /*private void OnCollisionEnter(Collision other)
     {
         Debug.Log("clé");
+        
+    }
+
+    public void Débarre(){
         if(other.transform.tag == "Clé"){
             animator.SetTrigger("CleSerrure");
         }
-    }
+    }*/
 }
