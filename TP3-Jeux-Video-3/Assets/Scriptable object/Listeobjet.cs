@@ -20,11 +20,10 @@ public class Listeobjet : ScriptableObject
     /// </summary>
     public void resetValue()
     {
-        nombreObjet[0] = 6;
-        nombreObjet[1] = 2;
+        nombreObjet[0] = 7;
+        nombreObjet[1] = 9;
         nombreObjet[2] = 4;
-        nombreObjet[3] = 3;
-
-        
+        nombreObjet[3] = 5;
+        tempsDeJeu = 0;
     }
 }
