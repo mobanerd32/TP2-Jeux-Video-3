@@ -19,7 +19,7 @@ public class Minuteur : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        listeobjet.tempsDeJeu += Time.deltaTime;
-        texteMinuteur.text = "Temps écoulé : " + listeobjet.tempsDeJeu.ToString("0");
+        listeobjet.tempsDeJeu -= Time.deltaTime;
+        texteMinuteur.text = "Temps restant : " + listeobjet.tempsDeJeu.ToString("0");
     }
 }

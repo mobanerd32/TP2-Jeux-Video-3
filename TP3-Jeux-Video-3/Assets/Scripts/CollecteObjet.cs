@@ -63,13 +63,7 @@ public class CollecteObjet : MonoBehaviour
     /// </summary>
     private void Update()
     {
-        verificateurVictoire = 0;
-        for(int i = 0; i<listeTexte.Length; i++){
-            if(listeobjet.nombreObjet[i] != 0){
-                verificateurVictoire++;
-            }
-        }
-        if(verificateurVictoire == 0){
+        if(listeobjet.tempsDeJeu == 0){
             SceneManager.LoadScene("Fin");
         }
     }
