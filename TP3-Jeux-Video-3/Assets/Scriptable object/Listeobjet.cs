@@ -12,6 +12,8 @@ public class Listeobjet : ScriptableObject
     public int[] nombreObjet;
 
     public float tempsDeJeu = 0;
+
+    public int score;
     
 
     /// <summary>
@@ -21,9 +23,10 @@ public class Listeobjet : ScriptableObject
     public void resetValue()
     {
         nombreObjet[0] = 7;
-        nombreObjet[1] = 9;
-        nombreObjet[2] = 4;
+        nombreObjet[1] = 11;
+        nombreObjet[2] = 5;
         nombreObjet[3] = 5;
-        tempsDeJeu = 0;
+        tempsDeJeu = 300;
+        score = 0;
     }
 }
