@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - "Cl\xE9"
+  - collectible
+  - plante
+  - champignon
+  - petit arbre
+  - pierre magique
   layers:
   - Default
   - TransparentFX
