@@ -12,6 +12,8 @@ public class Listeobjet : ScriptableObject
     public int[] nombreObjet;
 
     public float tempsDeJeu = 0;
+
+    public int score;
     
 
     /// <summary>
@@ -25,5 +27,6 @@ public class Listeobjet : ScriptableObject
         nombreObjet[2] = 4;
         nombreObjet[3] = 5;
         tempsDeJeu = 0;
+        score = 0;
     }
 }
